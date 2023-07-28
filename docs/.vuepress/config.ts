@@ -39,20 +39,20 @@ export default defineUserConfig({
     // 谷歌分析
     googleAnalyticsPlugin({
       // 需要设置自己的 ID
-      id: "G-RWKZTY2P9R",
+      id: "G-LRFRY1E27Y",
     }),
 
     // Algolia 全文搜索：需要自己设置爬虫并生成下方配置，如不会自己设置，启用下方本地搜索
-    docsearchPlugin({
-      indexName: "newzone",
-      appId: "M4EXXEZIEG",
-      apiKey: "fd8891a9c4cc21e0ef4f11bf44f7a11e",
-    }),
+    // docsearchPlugin({
+    //   indexName: "newzone",
+    //   appId: "M4EXXEZIEG",
+    //   apiKey: "fd8891a9c4cc21e0ef4f11bf44f7a11e",
+    // }),
 
     // // 本地搜索，和上方二选一
-    // searchProPlugin({
-    //   // 索引全部内容
-    //   indexContent: true,
-    // }),
+    searchProPlugin({
+      // 索引全部内容
+      indexContent: true,
+    }),
   ],
 });
