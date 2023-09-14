@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://newzone.top/LearnData/sitemap.xml
+Sitemap: https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/sitemap.xml
