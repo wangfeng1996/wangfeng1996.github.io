@@ -91,12 +91,4 @@ export default sidebar([
     collapsible: true,
     children: "structure",
   },
-  {
-    text: "博客文章",
-    icon: "blog",
-    prefix: "/_posts/",
-    link: "/blog",
-    collapsible: true,
-    children: "structure",
-  },
 ]);

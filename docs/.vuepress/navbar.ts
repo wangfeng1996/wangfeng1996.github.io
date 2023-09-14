@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 // 精选图标：https://theme-hope.vuejs.press/zh/guide/interface/icon.html#iconfont-%E7%B2%BE%E9%80%89%E5%9B%BE%E6%A0%87
 export default navbar([
-  { text: "博客", icon: "blog", link: "/blog" },
+  { text: "首页", icon: "home", link: "/DailyRoutine" },
   {
     text: "代码",
     icon: "code",
@@ -69,9 +69,9 @@ export default navbar([
       {
         text: "微信",
         icon: "wechat",
-        link: "https://img.newzone.top/wechat.svg",
+        link: "/imgs/wechat.png",
       },
-      { text: "Email", icon: "alias", link: "mailto:learndata@newzone.top" },
+      { text: "Email", icon: "alias", link: "1290715192@qq.com" },
       { text: "Discord", icon: "group", link: "https://discord.gg/PZTQfJ4GjX" },
       { text: "RSS", icon: "rss", link: "https://newzone.top/rss.xml" },
     ],
