@@ -2,551 +2,1054 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <atom:link href="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml" rel="self" type="application/rss+xml"/>
-    <title>LearnData-开源笔记</title>
+    <title>有梦想的鱼-开源博客</title>
     <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/</link>
-    <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
+    <description>业精于勤荒于嬉，行成于思毁于随</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 14 Sep 2023 02:12:26 GMT</pubDate>
-    <lastBuildDate>Thu, 14 Sep 2023 02:12:26 GMT</lastBuildDate>
+    <pubDate>Tue, 26 Sep 2023 09:36:35 GMT</pubDate>
+    <lastBuildDate>Tue, 26 Sep 2023 09:36:35 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>工具</category>
+    <category>shell</category>
+    <category>linux</category>
+    <category>homebrew</category>
+    <category>idea</category>
     <item>
-      <title>直播入门攻略零 | 硬件篇：直播设备</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/0_live_equipments.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/0_live_equipments.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">直播入门攻略零 | 硬件篇：直播设备</source>
-      <description>直播已经成为一种主流的传播方式，几乎所有的行业都会使用它。经过两年的持续直播，我总结出了一套直播入门攻略，从设备、软件和技巧三个方面，帮助你快速入门直播，开始自己的直播之旅。 本文是直播入门攻略的前置篇，主要介绍直播所需的设备，以及如何避免购买不必要的高价设备。直播设备可分为电脑、补光灯、稳定器（三脚架）、音频采集（收音器）和视频采集（摄像头）。 电脑 OBS 直播对电脑配置要求较高，建议使用三年内购买的主流配置台式机。台机推荐预算在一万元以上，显卡为 3060 以上，内存为 32G。 补光灯 露脸主播一定要配柔光灯或环形灯，可以提升颜值。如果带眼镜的话，可以用小型补光灯代替环形灯，以免反射出光圈影响视觉。补光灯可以放在正面 45 度成蝴蝶光（派拉蒙光），可以显瘦显轮廓；背后可以使用辅助光或一张白纸反光，以防止正面灯光太亮。</description>
-      <category>工具</category>
-      <pubDate>Fri, 28 Jul 2023 03:06:23 GMT</pubDate>
-      <content:encoded><![CDATA[<p>直播已经成为一种主流的传播方式，几乎所有的行业都会使用它。经过两年的持续直播，我总结出了一套直播入门攻略，从设备、软件和技巧三个方面，帮助你快速入门直播，开始自己的直播之旅。</p>
-<p>本文是直播入门攻略的前置篇，主要介绍直播所需的设备，以及如何避免购买不必要的高价设备。直播设备可分为电脑、补光灯、稳定器（三脚架）、音频采集（收音器）和视频采集（摄像头）。</p>
-<h2> 电脑</h2>
-<p>OBS 直播对电脑配置要求较高，建议使用三年内购买的主流配置台式机。台机推荐预算在一万元以上，显卡为 3060 以上，内存为 32G。</p>
-<h2> 补光灯</h2>
-<p>露脸主播一定要配柔光灯或环形灯，可以提升颜值。如果带眼镜的话，可以用小型补光灯代替环形灯，以免反射出光圈影响视觉。补光灯可以放在正面 45 度成蝴蝶光（派拉蒙光），可以显瘦显轮廓；背后可以使用辅助光或一张白纸反光，以防止正面灯光太亮。</p>
-<h2> 三脚架</h2>
-<p>三脚架主要有两类：桌面款，建议高度为 55cm；站立款，建议高度为 210cm。价位从 10-500 元不等，效果无明显区别，新手用户的三脚架预算建议不要超过 100 元。</p>
-<h2> 音频采集</h2>
-<p>收音设备的费用从几元到几千元不等。手机的收音性能比绝大多数话筒好，如果你使用手机摄像方案，可以先不用购买收音器材。</p>
-<p>廉价麦克风存在收音范围窄、不清晰、多噪音等问题，但价格低廉、使用方便，适合新人测试使用。</p>
-<p>桌面直播多使用「声卡 + 话筒」方案，预算需要超过一千元。不要购买廉价的山寨声卡，还不如手机收音来得清晰。</p>
-<p>外出直播或进阶用户推荐 RODE 或 DJI 的无线麦克风，这两款音频水准都可以吊打同行。RODE 是老牌话筒厂家，音质有保障；DJI 麦克风推出不久，但集百家之长，设计非常人性化，小白使用也很方便。</p>
-<h2> 视频采集</h2>
-<p>桌面摄像头、手机和微单相机都可以作为直播的视频采集来源。</p>
-<h3> 摄像头</h3>
-<p>桌面摄像头的价格在 50-1000 元不等，但实际效果没有太大的区别。个人体验过罗技 C930 后，发现画面模糊不清晰，将问题反馈给客服后得知，画质不清晰是桌面摄像头的通病。</p>
-<p>不管是几十元的廉价摄像头还是上千元的罗技 C1000，它们的实际像素都<strong>只有 200 万</strong>。宣传中的 2000 万像素是通过软件放大的效果，画质并没有实质性的变化。入门用户可以选择 100 元的自动变焦摄像头。</p>
-<p>桌面摄像头搭配三角架可以调整更佳的角度，购买时要注意摄像头是否有<strong>三脚架接口</strong>。</p>
-<h3> 手机</h3>
-<p>如果室内没有桌面摄像头，而又想用电脑做直播推流，可以考虑用手机替代摄像头，步骤可参考下方介绍。</p>
-<h3> 相机</h3>
-<p>相比摄像头的算法像素效果，只有相机才能达到真正意义上的高清直播。</p>
-<p>如果你的相机有外接视频接口（例如：HDMI、mini HDMI、SDI），可以通过视频采集卡将相机视频转为直播视频传入电脑。索尼、佳能等主流相机都有专门的直播软件，不需要采集卡就可以直接连接电脑进行直播。运动相机 GoPro 也已经支持相机直播传输，希望国内厂商也能跟上。</p>
-<p>将相机用作摄像头的费用较高，一般需要几千到几万，只建议已购买相机的主播采用此方案。</p>
-<h2> 手机作摄像头</h2>
-<h3> Camo</h3>
-<p><a href="https://apps.apple.com/app/reincubate-camo/id1514199064?platform=iphone" target="_blank" rel="noopener noreferrer">Camo</a> 专用于 iOS 设备，连接数据线后可将 iPhone 或 iPad 变为直播摄像头。</p>
-<h3> NDI</h3>
-<p>NDI 是最稳定的，可自由调节拍摄参数。打开 NDI 应用后，需等待 NDI 界面周边出现绿框或红框，OBS 才可以识别到摄像头。不过 NDI 是收费应用，安卓用户可使用 <a href="https://wwe.lanzoup.com/iQCMh00b946b" target="_blank" rel="noopener noreferrer">NDI 调试 APK</a>。</p>
-<h3> IP Webcam</h3>
-<p>IP Webcam 的推流稳定性一般，容易掉帧，但 <a href="https://wwz.lanzouf.com/iT6pH01tj7yb" target="_blank" rel="noopener noreferrer">IP Webcam 免费版</a>足够个人使用。</p>
-<p>下文为 IP Webcam 基础设置：</p>
-<ul>
-<li>进入 IP Webcam 设置页面，将流质量调整至 90%，视频分辨率设为 720p，可有效减少卡顿。IP camera 耗电低，适合手机长时间直播，支持视频与浏览器等方式。</li>
-<li>在 OBS 中，选择「场景」&gt;「来源」&gt;「媒体源」，取消勾选本地文件，「输入」项中填入 IP Webcam 视频地址，例如 <code>http://192.168.2.234:8080/video</code>。</li>
-<li>OBS 中选择「场景」&gt;「来源」&gt;「浏览器」，「URL」项中填入 IP Webcam 浏览器全屏地址，例如 <code>http://192.168.2.234:8080/jsfs.html</code>。注意：浏览器推流容易出现闪屏。</li>
-</ul>
-<h3> 其他</h3>
-<p>如果出现闪退等问题，可尝试 iriun webcam、DroidCam 和 ivcam。</p>
-<p>不推荐使用无他伴侣，尽管国内有大量教程介绍它，但使用中会出现很多问题，例如：摄影角度很难控制；无法使用 FaceRig 等变脸应用；直播 10 分钟后，摄像头经常自动与 OBS 断开连接；直播 2 小时后，OBS 无法检测到无他伴侣。</p>
+      <title>自动化部署git项目</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/deploy/%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/deploy/%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">自动化部署git项目</source>
+      <description>自动化部署git项目 创建部署脚本deploy.sh #!/usr/bin/env sh # 确保脚本抛出遇到的错误 set -e # 生成静态文件 npm run build # 进入生成的文件夹 cd docs/.vuepress/dist # 如果是发布到自定义域名 # echo &amp;apos;www.yourwebsite.com&amp;apos; &amp;gt; CNAME git init git add -A git commit -m &amp;apos;message&amp;apos; # 如果发布到 https://&amp;lt;USERNAME&amp;gt;.github.io git push -f git@github.com:wangfeng1996/wangfeng1996.github.io.git master # 如果发布到 https://USERNAME.github.io/&amp;lt;REPO&amp;gt; REPO=github上的项目 # git push -f git@github.com:USERNAME/&amp;lt;REPO&amp;gt;.git master:gh-pages cd ../ &amp;amp;&amp;amp; rm -rf dist</description>
+      <category>shell</category>
+      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 自动化部署git项目</h1>
+<h2> <a href="http://xn--deploy-hn3jk46frlqoi1dj2df43d.sh" target="_blank" rel="noopener noreferrer">创建部署脚本deploy.sh</a></h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 添加命令(package.josn)</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code>tip:</code> 如果不添加这个脚本，直接在控制台输入 bash <a href="http://deploy.sh" target="_blank" rel="noopener noreferrer">deploy.sh</a> 即可</p>
+<h2> 运行发布命令</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>linux</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/services/01-linux.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/services/01-linux.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">linux</source>
+      <description>1、关机、重启</description>
+      <category>linux</category>
+      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
+      <content:encoded><![CDATA[<h3> 1、关机、重启</h3>
 ]]></content:encoded>
     </item>
     <item>
-      <title>直播入门攻略一 | OBS 篇：OBS 29 新手指南</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/1_obs_basic.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/1_obs_basic.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">直播入门攻略一 | OBS 篇：OBS 29 新手指南</source>
-      <description>Open Broadcaster Software（OBS）是一款免费开源的视频录制和直播应用，支持 Windows、Mac 和 Linux 平台。大部分直播软件都是基于 OBS 内核开发的。无论你准备在哪个平台直播，OBS 都是最推荐的直播入门软件。本文将从基础开始，为新手介绍 OBS 的界面、设置和直播使用方法。 主界面 OBS 界面看起来有些复杂，但可以分为菜单栏、预览区、主按钮区和运行状态四个区块。日常使用中，我们只需要接触主按钮区，它包括场景、来源、混音器、转场特效和控制按钮。</description>
-      <category>工具</category>
-      <pubDate>Fri, 28 Jul 2023 03:06:23 GMT</pubDate>
-      <content:encoded><![CDATA[<p><a href="https://obsproject.com/" target="_blank" rel="noopener noreferrer">Open Broadcaster Software</a>（OBS）是一款免费开源的视频录制和直播应用，支持 Windows、Mac 和 Linux 平台。大部分直播软件都是基于 OBS 内核开发的。无论你准备在哪个平台直播，OBS 都是最推荐的直播入门软件。本文将从基础开始，为新手介绍 OBS 的界面、设置和直播使用方法。</p>
-<h2> 主界面</h2>
-<p>OBS 界面看起来有些复杂，但可以分为菜单栏、预览区、主按钮区和运行状态四个区块。日常使用中，我们只需要接触主按钮区，它包括场景、来源、混音器、转场特效和控制按钮。</p>
-<figure><img src="https://img.newzone.top/2023-01-05-20-47-16.png" alt="" tabindex="0" loading="lazy"><figcaption>OBS 主界面</figcaption></figure>
-<h3> 场景</h3>
-<p>场景（Scenes）是指直播中不同的场面。不同的场景可以用于不同的领域或场合，例如自习室场景、街拍场景、个人访问、卖货直播。</p>
-<p>场景有四个按钮，从左到右依次为：添加场景，删除场景，向上移动场景，向下移动场景。</p>
-<figure><img src="https://img.newzone.top/2023-01-05-21-16-34.png" alt="" tabindex="0" loading="lazy"><figcaption>场景按钮</figcaption></figure>
-<h3> 来源</h3>
-<p>来源（Source）是指场景中的素材，比如摄像头画面、图像、音频等。来源区有 7 个按钮，上方两个为源属性和滤镜，下方 5 个按钮依次为：添加来源，删除来源，源属性，向上移动源，向下移动源。</p>
-<figure><img src="https://img.newzone.top/2023-01-05-22-47-14.png" alt="" tabindex="0" loading="lazy"><figcaption>来源按钮</figcaption></figure>
-<h3> 混音器</h3>
-<p>混音器（Audio Mixer）是直播的音频控制器。点击混音器左下角的齿轮按钮，进入「高级音频属性」，可管理所有的音频设备。</p>
-<p>混音器设置中，「音频监听」最为重要。默认为「关闭监听」，指音频仅对直播间观众播放，主播听不到。「仅监听 (输出静音)」表示观众听不到，但主播能听到，观众可通过主播话筒的收音听到声音。「监听并输出」表示主播和观众都能听到。「监听并输出」模式中，建议主播使用耳麦，而不是话筒，否则观众容易听不清主播说话的声音，话筒声音会被输出音频盖住。</p>
-<figure><img src="https://img.newzone.top/2023-01-06-01-22-30.png" alt="" tabindex="0" loading="lazy"><figcaption>直播高级音频属性</figcaption></figure>
-<h3> 转场特效</h3>
-<p>转场特效（Scene Transitions）指的是在两个场景或素材之间，采用渐变、移动、滑入滑出等技巧，实现场景或情节之间平滑过渡的效果。</p>
-<h3> 控制按钮</h3>
-<p>控制按钮（Controls）区域集成了 OBS 的核心功能，按钮分别为「开始直播」「开始录制」「启动虚拟摄像机」「工作室模式」。</p>
-<p>「启动虚拟摄像机」是将 OBS 场景作为摄像头画面对外输出，适合将画面输出到不支持 OBS 推流的平台或软件。例如，抖音直播要求粉丝在一万以上才能使用 OBS 推流，而启用虚拟摄像头后，将直播摄像头设为「OBS-Camera」即可达到类似推流效果。</p>
-<p>「工作室模式」下，显示区域会分为两块：左侧为预览区，右侧为输出区。点击中间按钮「转场特效」，即可将左侧预览区输出到直播画面。</p>
-<figure><img src="https://img.newzone.top/2023-01-06-01-38-21.png" alt="" tabindex="0" loading="lazy"><figcaption>工作室模式</figcaption></figure>
-<h2> 设置</h2>
-<p>在使用 OBS 直播前，请先点击右上角菜单栏中的「文件」&gt;「设置」，调整 OBS 的设置。</p>
-<h3> 直播</h3>
-<p>点击「设置」&gt;「直播」，将「服务」调整为自定义，服务器和推流码则按平台要求输入。</p>
-<figure><img src="https://img.newzone.top/2022-06-30-14-33-34.png" alt="" tabindex="0" loading="lazy"><figcaption>推流服务器设置</figcaption></figure>
-<h3> 输出</h3>
-<p>点击「设置」&gt;「输出」，将「输出模式」设为高级，其他设置参考下方样例。</p>
+      <title>Homebrew</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/homebrew/Homebrew.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/homebrew/Homebrew.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">Homebrew</source>
+      <description>Homebrew 使用指南 对于习惯了使用命令来完成一切的程序员来说，安装软件这种小事，自然是能够用命令解决，就不用图形界面选择。但是在 Linux 中，我们有 yum、apt、dnf、pkg等命令来完成软件的安装，macOS 却并未为我们提供一个好用的包管理器，帮助我们更好的使用 macOS。 好在，虽然官方没有提供，我们却可以使用 Homebrew 这一神器，来完成类似的工作，就如同 Homebrew 的 Slogan ：“The missing package manager for macOS (or Linux)”</description>
+      <category>homebrew</category>
+      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Homebrew 使用指南</h1>
+<p>对于习惯了使用命令来完成一切的程序员来说，安装软件这种小事，自然是能够用命令解决，就不用图形界面选择。但是在 Linux 中，我们有 <code>yum</code>、<code>apt</code>、<code>dnf</code>、<code>pkg</code>等命令来完成软件的安装，macOS 却并未为我们提供一个好用的包管理器，帮助我们更好的使用 macOS。</p>
+<p>好在，虽然官方没有提供，我们却可以使用 <strong>Homebrew</strong> 这一神器，来完成类似的工作，就如同 Homebrew 的 Slogan ：“The missing package manager for macOS (or Linux)”</p>
+<h2> Homebrew介绍</h2>
+<p>Homebrew 由开发者 Max Howell 开发，并基于 BSD 开源，是一个非常方便的包管理器工具。在早期， Homebrew 仅有 macOS 的版本，后续随着用户的增多，Homebrew 还提供了 Linux 的版本，帮助开发者在 Linux 同样使用 Homebrew 来配置环境。</p>
+<h2> Homebrew 的几个核心概念</h2>
+<p>在正式介绍 Homebrew 的使用之前，我先为你介绍一下 Homebrew 中的一些核心的概念，了解这些概念，就可以帮助你更好的去使用 Homebrew。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">词汇</th>
+<th style="text-align:left">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">formula (e)</td>
+<td style="text-align:left">安装包的描述文件，formulae 为复数</td>
+</tr>
+<tr>
+<td style="text-align:left">cellar</td>
+<td style="text-align:left">安装好后所在的目录</td>
+</tr>
+<tr>
+<td style="text-align:left">keg</td>
+<td style="text-align:left">具体某个包所在的目录，keg 是 cellar 的子目录</td>
+</tr>
+<tr>
+<td style="text-align:left">bottle</td>
+<td style="text-align:left">预先编译好的包，不需要现场下载编译源码，速度会快很多；官方库中的包大多都是通过 bottle 方式安装</td>
+</tr>
+<tr>
+<td style="text-align:left">tap</td>
+<td style="text-align:left">下载源，可以类比于 Linux 下的包管理器 repository</td>
+</tr>
+<tr>
+<td style="text-align:left">cask</td>
+<td style="text-align:left">安装 macOS native 应用的扩展，你也可以理解为有图形化界面的应用。</td>
+</tr>
+<tr>
+<td style="text-align:left">bundle</td>
+<td style="text-align:left">描述 Homebrew 依赖的扩展</td>
+</tr>
+</tbody>
+</table>
+<p>其中，最关键的是 tap 、cask，我们在后续会经常用到。</p>
+<h2> Homebrew 常用操作</h2>
+<h3> 安装 Homebrew</h3>
+<h4> 要求</h4>
 <ul>
-<li>「直播设置」&gt;「编码器」中，如果你的显卡配置不错，尽量选硬件编码，如 <code>NVIDIA NVENC H.264</code>。</li>
-<li>「编码器设置」&gt;「比特率」用来设置直播的清晰度，推荐 4000-6000 Kbps。注意：直播并非越清晰越好，它对网络稳定性要求较高，过高的清晰度可能导致直播卡顿。我的自习室直播间只有 2500 Kbps。</li>
+<li>64-bit Intel CPU 或者 Apple Silicon CPU(苹果自己研发的CPU)</li>
+<li>macOS版本为Mojave（10.14）或者以上</li>
+<li>Xcode命令行工具（安装Command Line Tools）<br>
+<code>安装xcode命令</code><div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>支持shell (zsh或者bash) 在macOS 10.15 之后 默认shell是zsh<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
 </ul>
-<figure><img src="https://img.newzone.top/2023-01-05-20-06-39.png" alt="" tabindex="0" loading="lazy"><figcaption>直播输出设置</figcaption></figure>
-<h3> 音频</h3>
-<p>点击「设置」&gt;「音频」&gt;「通用」，将声道设为单声道。除非你是歌唱主播，否则无需使用立体声。</p>
-<h3> 视频</h3>
-<p>点击「设置」&gt;「视频」，按需设置直播分辨率，通常为 <code>1920x1080</code> 或 <code>1280x720</code>。如果你是做电商直播，需要进行<strong>竖屏直播</strong>，就将分辨率反过来设置，比如 <code>1080x1920</code> 或 <code>720x1280</code>。「输出（画布）分辨率」与「基础（缩放）分辨率」建议设为相同数值，避免出现缩放问题。</p>
-<p>「常用帧率」在日常直播中只需要 30，游戏直播建议调整到 60。</p>
-<figure><img src="https://img.newzone.top/2023-01-05-20-22-29.png" alt="" tabindex="0" loading="lazy"><figcaption>直播分辨率设置</figcaption></figure>
-<h3> 高级</h3>
-<p>点击「设置」&gt;「高级」，将「进程优先级」设为高，以降低电脑卡顿的概率。然后，启用「直播延迟」和「自动重连」功能，以避免直播事故的发生。「直播延迟」启用后，观众看到的直播画面会比实时要慢，延迟时间一般为 3~20 秒。</p>
-<figure><img src="https://img.newzone.top/2023-01-05-21-09-13.png" alt="" tabindex="0" loading="lazy"><figcaption>OBS 高级设置</figcaption></figure>
-<h2> 直播来源</h2>
-<p>了解 OBS 界面和设置后，我们回到主按钮区的「来源」，深入了解来源种类和滤镜。直播来源种类繁多，可以分为四类：静态来源、音频来源、视频来源和组合来源。</p>
-<figure><img src="https://img.newzone.top/2023-01-06-02-10-05.png" alt="" tabindex="0" loading="lazy"><figcaption>直播来源</figcaption></figure>
-<h3> 静态来源</h3>
+<h4> 安装和卸载</h4>
 <ul>
-<li>文本（GDI+）：添加文字，并可设置背景和移动效果。</li>
-<li>色源：添加指定色彩的纯色画面素材。</li>
-<li>图像：添加静态图像素材。</li>
-<li>图像幻灯片放映：以幻灯片形式播放指定图像文件。</li>
-<li>浏览器：以浏览器方式显示网址内容或打开本地 html 文件。</li>
+<li>
+<p>安装</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>卸载</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong><code>tip:</code></strong> Homebrew 会将软件包安装到独立目录，并将其文件软链接至 <code>/usr/local</code></p>
+</li>
 </ul>
-<h3> 音频来源</h3>
+<h3> 安装软件</h3>
+<p>当你完成了 Homebrew 以后，就可以使用 Homebrew 来完成软件的安装了，安装命令行软件的时候非常简单，只需要执行 <code>brew install [软件名]</code> 就可以安装软件了，比如说，我们要安装 wget，那么只需要执行 <code>brew install wget</code> 就可以了。</p>
+<h3> 搜索软件</h3>
+<p>很多时候，我们不知道自己想要的软件是否有，或者说具体的名字是什么，这个时候你有两种方式来完成搜索</p>
+<h4> 1. 使用命令搜索</h4>
+<p>在命令行中，你可以直接使用 <code>brew search [关键词]</code> 来进行搜索<br>
+<img src="/images/homebrew/homebrew-01.png" alt="关键字搜索" loading="lazy"></p>
+
+&gt; 命令行搜索软件 输入你想要的关键词，来搜索即可得到结果。 
+&gt; 在搜索时应当遵循宁可少字，不能错字的原则来搜索。
+<h4> 2. 使用网页搜索</h4>
+<p>除了使用命令行搜索以外，你可以使用网页端的搜索工具来辅助你进行搜索。在 Homebrew 的官网，你可以找到 formulae 的链接，或者直接访问 <a href="https://links.jianshu.com/go?to=https%3A%2F%2Fformulae.brew.sh%2F" target="_blank" rel="noopener noreferrer">https://formulae.brew.sh/</a> 来进行搜索。你只需要在界面的输入框中输入你要搜索的命令，然后就会出现对应的候选命令<br>
+<img src="/images/homebrew/homebrew-03.png" alt="img" loading="lazy"></p>
+
+选择其中你要使用的那个，点击就会进入到软件的介绍页面
+<figure><img src="/images/homebrew/homebrew-02.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+
+你就可以看到 Homebrew 中的软件具体信息。
+<h3> 查看已经安装的包</h3>
+<p>如果你想要查看你都安装了哪些包，你可以执行 <code>brew list</code> 命令，来查看所有你已经安装的软件。<br>
+<img src="/images/homebrew/homebrew-04.png" alt="img" loading="lazy"></p>
+
+<h3> 更新一个已经安装的包</h3>
+<p>我们安装的软件并不会自动更新，因此，我们可以根据自己的需求，批量更新软件，或者更新单个软件。</p>
+<p>你可以先使用 <code>brew outdated</code> 来查看所有有更新版本的软件。</p>
+<figure><img src="/images/homebrew/homebrew-05.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+
+然后使用 `brew upgrade` 来更新所有的软件，或者是使用 `brew upgrade [软件名]`来更新单个软件。
+<h3> 卸载某个已经安装的包</h3>
+<p>如果你想要卸载某个包，你可以执行 <code>brew uninstall [软件名]</code> 来卸载一个特定的软件，比如卸载 wget 是这样的。<br>
+<img src="/images/homebrew/homebrew-06.png" alt="img" loading="lazy"></p>
+
+<h3> 查看包的信息</h3>
+<p>如果你想要查看某个特定软件的信息，你可以执行命令 <code>brew info [软件名]</code> 来查看该软件的详情。<br>
+<img src="/images/homebrew/homebrew-07.png" alt="img" loading="lazy"></p>
+
+<h3> 清理软件的旧版</h3>
+<p>Homebrew 用久了，会有一些历史版本的软件遗留在系统里，这个时候，你可以使用 <code>brew cleanup</code> 命令来清理系统中所有软件的历史版本，或者可以使用 <code>brew cleanup [软件名]</code>来清理特定软件的旧版。<br>
+<img src="/images/homebrew/homebrew-08.png" alt="img" loading="lazy"></p>
+
+<h3> 常用命令</h3>
+<h4> 管理后台软件命令</h4>
+<blockquote>
+<p>诸如 Nginx、MySQL 等软件，都是有一些服务端软件在后台运行，如果你希望对这些软件进行管理，可以使用 <code>brew services</code> 命令来进行管理</p>
+</blockquote>
 <ul>
-<li>音频输入采集：话筒输入。</li>
-<li>音频输出采集：音响输出。</li>
-<li>应用程序音频捕获：获取指定应用程序的音频输出。</li>
+<li><code>brew services list</code>: 查看所有服务</li>
+<li><code>brew services run [服务名]</code>: 单次运行某个服务</li>
+<li><code>brew services start [服务名]</code>: 运行某个服务，并设置开机自动运行。</li>
+<li><code>brew services stop [服务名]</code>：停止某个服务</li>
+<li><code>brew services restart</code>：重启某个服务</li>
 </ul>
-<h3> 视频来源</h3>
+<h4> 其他命令</h4>
 <ul>
-<li>视频采集设备：捕获设备的视频画面，多用于摄像头。</li>
-<li>窗口采集：捕获指定程序的窗口画面。使用窗口采集时，窗口不能最小化，否则窗口会卡住不同步。</li>
-<li>游戏源：采集游戏画面。</li>
-<li>显示器采集：捕获单个显示器的完整视频画面。</li>
-<li>媒体源：播放本地或在线的音视频文件。</li>
-<li>VLC 视频源：安装 <a href="https://www.videolan.org/vlc/" target="_blank" rel="noopener noreferrer">VLC</a> 才能启用本来源。「VLC 视频源」用于多个音视频按序播放，支持字幕。</li>
+<li><code>brew -v</code>: 查看homebrew版本</li>
+<li><code>brew list</code>: 查看已安装的包</li>
+<li><code>brew install packageName</code>: 安装某个软件</li>
+<li><code>brew uninstall packageName</code>: 卸载某个软件</li>
+<li><code>brew searck packageName</code>: 查找某个软件</li>
+<li><code>brew info packageName</code>: 查看软件包的信息</li>
+<li><code>brew update</code>: 更新homebrew</li>
+<li><code>brew doctor</code>: 诊断homebrew</li>
+<li><code>brew -h</code>: 查看帮助信息</li>
+<li><code>brew cleanup</code>: 清理旧版本</li>
+<li><code>brew upgrade </code>: 全部更新</li>
+<li><code>brew upgrade packageName</code>: 更新指定包</li>
+<li><code>brew outdated</code>: 查询可更新的包</li>
+<li><code>brew install --cask packageName</code>: 安装 macOS 应用程序、字体和插件以及其他非开源软件</li>
+<li><code>brew uninstall --cask packageName</code>: 卸载 macOS 应用程序、字体和插件以及其他非开源软件</li>
+<li><code>brew tap</code>: 列出当前的存储库</li>
 </ul>
-<h3> 组合输出</h3>
+<h3> 检查 Hombrew 环境</h3>
+<p>如果你的 Hombrew 没有办法正常的工作，你可以执行 <code>brew doctor</code> 来开启 Homebrew 自带的检查，从而确认有哪些问题，并进行修复。<br>
+<img src="/images/homebrew/homebrew-09.png" alt="img" loading="lazy"></p>
+
+<h3> 更新 Homebrew</h3>
+<p>Homebrew 经常会在执行命令的时候触发更新，不过如果你想要主动检查更新，可以执行 <code>brew update</code> 来唤起 Homebrew 的更新。</p>
+<h3> 添加一个新的 tap</h3>
+<p>homebrew 官方在安装的时候会有一些 tap 但是在使用时，依然会需要安装一些特殊的 tap ，这个时候，我们就要用到 tap 的命令来添加新的 tap.</p>
+<p>在添加 tap 时，输入命令 <code>brew tap [user/repo]</code> ，就可以完成添加 tap 了</p>
+<h2> 常用 tap</h2>
+<p>在使用 homebrew 时，我们一般会添加几个常用的 tap，来确保我们有足够的软件来安装。</p>
+<h3> 1. Caskroom</h3>
+<p>Caskroom 是 Homebrew 下一个非常出名的 tap ，有了 caskroom，我们就可以安装一些有图形化界面的软件了，比如 VSCode、Typora 等软件。</p>
+<p>使用起来也非常简单，最新版 Homebrew 中，你可以直接使用 <code>brew cask install [软件名]</code> 来安装特定的软件，homebrew 会自动安装 Caskroom。</p>
+<h3> 2. homebrew-cask-fonts</h3>
+<p>程序员难免要安装一些代码字体，这样才能更好的写代码，Homebrew 也提供了方便我们安装字体的 tap。</p>
+<p>在使用时，你需要先添加对应的 tap ，然后执行安装即可了，比如我们要安装 source code pro ，只需要执行如下命令。</p>
+<div class="language-undefined line-numbers-mode" data-ext="undefined"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h2> 使用技巧</h2>
+<h3> 切换国内的镜像源</h3>
+<p>Homebrew 默认使用的是国外的源，在下载时速度可能会比较慢。好在国内的清华大学和中科大提供了 Homebrew 的镜像源，我们可以很轻松的切换源，从而提升我们的下载速度。</p>
+<h4> 使用中科大的镜像</h4>
+<p>执行如下命令，即可切换为中科大的镜像</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 使用清华大学的镜像</h4>
+<p>执行如下命令，即可切换为清华大学的镜像</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 使用 Brewfile 完成环境迁移</h3>
+<p>设备永久了，我们的电脑中会有大量的软件，如果你需要迁移环境，重新安装会是一个大麻烦，好在 Homebrew 本身为我们提供了一个非常好用的环境迁移的工具 —— Homebrew Bundle</p>
+<p>你首先需要在之前的电脑中执行 <code>brew bundle dump</code> 来完成当前环境的导出,导出完成后，你会得到一个 <em>Brewfile</em>。</p>
+<figure><img src="/images/homebrew/homebrew-10.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>然后将 <em>Brewfile</em> 复制到新的电脑中，并执行 <code>brew bundle</code> 来开始安装的过程。</p>
+<h3> 使用网页搜索 Caskroom 的软件</h3>
+<p>Brew Caskroom 并没有提供搜索的命令，不过我们可以借助一些网站来进行搜索，一个是 Homebrew 官方的 Caskrrom 页面：<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fformulae.brew.sh%2Fcask%2F" target="_blank" rel="noopener noreferrer">https://formulae.brew.sh/cask/</a></p>
+<figure><img src="/images/homebrew/homebrew-11.png" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>在这个页面，你可以看到所有被收录的页面，在命令行中输入对应的软件就可以安装了。</p>
+<p>你也可以访问 <a href="https://links.jianshu.com/go?to=http%3A%2F%2Fmacappstore.org%2F%EF%BC%8C%E5%9C%A8%E7%BD%91%E7%AB%99%E4%B8%AD%E8%BE%93%E5%85%A5%E4%BD%A0%E8%A6%81%E5%AE%89%E8%A3%85%E7%9A%84%E8%BD%AF%E4%BB%B6%EF%BC%8C%E7%82%B9%E5%87%BB%E6%90%9C%E7%B4%A2%EF%BC%8C%E5%9C%A8%E5%BC%B9%E5%87%BA%E7%9A%84%E9%A1%B5%E9%9D%A2%E4%B8%AD%EF%BC%8C%E6%9F%A5%E7%9C%8B%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97%E5%8D%B3%E5%8F%AF%E3%80%82" target="_blank" rel="noopener noreferrer">http://macappstore.org/，在网站中输入你要安装的软件，点击搜索，在弹出的页面中，查看安装指南即可。</a><br>
+<img src="/images/homebrew/homebrew-12.png" alt="img" loading="lazy"></p>
+<h2> 辅助软件</h2>
+<p>除了命令行，还有两款软件可以帮助我们更好的使用 Homebrew ，他们分别是 Cakebrew 和 launchrocket。</p>
+<h3> Cakebrew</h3>
+<p>Cakebrew 是 Homebrew 的 GUI 管理器，在 Cakebrew 中，你可以看到当前所有已经安装的软件，并可以在 Caskbrew 中对其他软件执行升级等操作。</p>
+<p>你只需要执行 <code>brew cask install cakebrew</code> 就可以完成 Cakebrew 的安装。</p>
+<p>安装完成后，在 LaunchPad 中打开即可。</p>
+<h3> launchrocket</h3>
+<p>launchrocket 可以用于管理 Homebrew 安装的服务，在使用时，你需要先添加对应的tap，然后再安装软件。</p>
+<div class="language-undefined line-numbers-mode" data-ext="undefined"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>安装完成后，在 LaunchPad 中打开即可。</p>
+<h2> 安装配置开发环境</h2>
+<h3> JDK的安装与环境变量的配置</h3>
+<h4> 安装</h4>
 <ul>
-<li>场景：将指定场景作为来源输入当前场景中。</li>
-<li>来源镜像：将指定来源复制到当前场景。</li>
-<li>分组：将来源置于同一分组，可批量更改可见性和锁定状态。</li>
+<li>搜索软件</li>
 </ul>
-<h2> 滤镜</h2>
-<p>选择「来源」&gt;「滤镜」，可对来源素材进行裁剪、过滤、增益等多种处理。滤镜可分为效果滤镜和音视频滤镜。下文将介绍几种常用滤镜。</p>
-<h3> 常用滤镜</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>安装软件
 <ul>
-<li>裁剪/填充：效果滤镜，对来源进行裁剪，剪去多余的部分。</li>
-<li>噪音阈值：音视频滤镜，当背景有噪音时，设置噪音阈值来控制底噪，降低噪音干扰。</li>
-<li>增益：音视频滤镜，当麦克风声音过大或过小时，可以通过增益滤镜调整音量，但是不宜设置数值过大，容易造成声音失真。</li>
+<li>安装源（我使用的是第二个）
+<ul>
+<li>homebrew/cask-versions/adoptopenjdk8</li>
+<li>adoptopenjdk/openjdk/adoptopenjdk8</li>
 </ul>
-<h3> 色度键（抠图）</h3>
-<p>「色度键」属于效果滤镜，能将指定颜色变为透明，多用于绿幕实时抠图，可以在直播时把绿幕替换为其他场景。</p>
-<figure><img src="https://img.newzone.top/20210328235013.gif?imageMogr2/format/webp" alt="色度键滤镜一键抠图" tabindex="0" loading="lazy"><figcaption>色度键滤镜一键抠图</figcaption></figure>
-<h3> 模糊</h3>
-<p>「模糊」属于效果滤镜，可将指定区域模糊化以维护隐私。推荐设置：类型设为「Dual Filtering（双重过滤）」，大小为 4，应用蒙版后可以选择模糊区域。与 Gaussian 类型相比，Dual Filtering 生成模糊效果最快，对配置要求更低。要使用模糊滤镜，需要安装插件 <a href="https://github.com/Xaymar/obs-StreamFX/releases" target="_blank" rel="noopener noreferrer">StreamFX</a>。</p>
-<figure><img src="https://img.newzone.top/2023-01-08-06-49-05.png" alt="" tabindex="0" loading="lazy"><figcaption>右侧为模糊效果</figcaption></figure>
-<figure><img src="https://img.newzone.top/2023-01-06-02-51-10.png" alt="" tabindex="0" loading="lazy"><figcaption>模糊滤镜设置</figcaption></figure>
-<h3> 图像蒙版</h3>
-<p>「图像蒙版/混合」属于效果滤镜，可在摄像头（视频采集设备）上添加定制外框。其中，最常用的应用是主播圆形头像。类型选择「Alpha 蒙版（Alpha 通道）」，路径选择头像形状图片。头像形状图片可任意定制，比如在 1920*1080 的画布上画一个圆形，并填充黑色，其他区域为透明，然后将其导出为 PNG 格式。如果你不想自己画，也可以使用下方示例图片。</p>
-<figure><img src="https://img.newzone.top/2023-05-11-09-04-30.png?imageMogr2/thumbnail/500x" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 色彩校正</h3>
-<p><a href="https://github.com/Xaymar/obs-StreamFX/wiki/Filter-Color-Grade" target="_blank" rel="noopener noreferrer">色彩校正</a>（Color Grading）属于效果滤镜，使用伽玛、对比度、亮度、饱和度、色调偏移、不透明度、颜色叠加、添加颜色来改变或校正最终画面的颜色和亮度。</p>
-<figure><img src="https://img.newzone.top/2023-01-08-07-01-17.png" alt="" tabindex="0" loading="lazy"><figcaption>色彩校正</figcaption></figure>
-<h3> 应用 LUT</h3>
-<p>「应用 LUT」属于效果滤镜。它使用 LUT 对画面进行色彩调整，相当于手机修图用的风格滤镜，能够大大提升画面效果。初期可以使用我的 <a href="https://wwva.lanzoue.com/iEyOs0k8kj3g" target="_blank" rel="noopener noreferrer">LUT 设置</a>，「路径」指向解压后的 png 文件。</p>
-<p>自制 LUT 文件参照下列步骤：</p>
-<ol>
-<li>将 OBS 滤镜插件目录下的 original.png 复制到 Photoshop。</li>
-<li>进入 Photoshop 右侧的调整界面，选择第二行的最右侧「创建新的颜色查找调节图层」。</li>
-<li>载入自带的 3DLUT 文件，调整后导出为 png 文件。这个 png 就是直播能用的 LUT 文件。如果自带 LUT 不能满足需求，则使用 Premiere 调节定制 LUT cube 文件。</li>
-</ol>
-<h2> 常见问题</h2>
-<h3> 直播延迟严重</h3>
-<p>选择「设置」&gt;「高级」，检查「直播延迟」是否启用了。主流机器不会导致直播严重延迟，出现延迟的原因多是因为启用了「直播延迟」设置。</p>
-<h3> 一直断开重连</h3>
-<p>右下角弹出提示「OBS Studio 已断开连接。正在重新连接...」，这说明直播服务设置错误。选择「设置」&gt;「直播」，更新服务器和推流码内容。注意：某些平台只要断开，推流码就会改变。</p>
-<h2> 后续</h2>
-<p>我原本想一篇写完 OBS 的入门，但基础使用已经占据了较长篇幅。为了避免重蹈上一篇的覆辙，OBS 插件的介绍会放在篇二更新。</p>
+</li>
+</ul>
+</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>安装完毕后，输入下面的指令</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 环境变量的配置</h4>
+<ul>
+<li>查看jdk安装地址</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>从终端输出结果可以得出：JAVA_HOME路径</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>查看是否配置了环境变量</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>配置环境变量（在.zshrc添加下面几行）</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>使修改的文件生效</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>查看环境变量是否生效</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> maven的安装</h3>
+<ul>
+<li>brew查找maven版本</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>安装</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>maven在zsh环境变量配置，安装完了有提示的，直接复制就行</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>查看是否安装成功</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> git的安装</h3>
+<ul>
+<li>brew 查找git版本</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>brew 安装Git</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>安装完毕后查看版本号</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> node的安装</h3>
+<ul>
+<li>brew 查找node版本</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>brew 安装node</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>node在zsh环境变量配置，安装完了有提示的，直接复制就行</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>配置npm</li>
+</ul>
+<blockquote>
+<p>遇到过 cnpm 的 bug，所以不适用 cnpm，直接配置淘宝镜像</p>
+</blockquote>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> mysql的安装</h3>
+<ul>
+<li>brew查找mysql版本</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>安装</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>开机自动启动</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>mysql在zsh环境变量配置，安装完了有提示的，直接复制就行</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>连接mysql，root用户无初始密码，直接回车</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>设置root用户初始密码，为'root'</li>
+</ul>
+<div class="language-mysql line-numbers-mode" data-ext="mysql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>mysql创建新的用户（必须在root用户下执行）</li>
+</ul>
+<div class="language-mysql line-numbers-mode" data-ext="mysql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>mysql新用户赋予权限（必须在root用户下执行）</li>
+</ul>
+<div class="language-mysql line-numbers-mode" data-ext="mysql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>mysql 删除权限</li>
+</ul>
+<div class="language-mysql line-numbers-mode" data-ext="mysql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>删除用户</li>
+</ul>
+<div class="language-mysql line-numbers-mode" data-ext="mysql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> Reference</h2>
+<ul>
+<li>Homebrew 官网：<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fbrew.sh" target="_blank" rel="noopener noreferrer">https://brew.sh</a></li>
+<li>Homebrew Github：<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2FHomebrew%2Fbrew" target="_blank" rel="noopener noreferrer">https://github.com/Homebrew/brew</a></li>
+<li>Homebrew 的 Manpage 说明书：<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fdocs.brew.sh%2FManpage" target="_blank" rel="noopener noreferrer">https://docs.brew.sh/Manpage</a></li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/images/homebrew/homebrew-01.png" type="image/png"/>
+    </item>
+    <item>
+      <title>IntelliJ IDEA</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/01_IDEA.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/01_IDEA.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">IntelliJ IDEA</source>
+      <description>IntelliJ IDEA 点击下载IDEA 本系列基于ideaIU-2022.1.1.win操作 安装之后 windows：配置存放目录C:\Users\用户名\AppData\Roaming\JetBrains\IntelliJIdea2022.1 mac: 配置存放目录</description>
+      <category>idea</category>
+      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
+      <content:encoded><![CDATA[<h3> IntelliJ IDEA</h3>
+<p><a href="https://www.jetbrains.com/zh-cn/idea/download/#section=windows" target="_blank" rel="noopener noreferrer">点击下载IDEA</a></p>
+<blockquote>
+<p>本系列基于<code>ideaIU-2022.1.1.win</code>操作</p>
+</blockquote>
+<h3> 安装之后</h3>
+<ul>
+<li>
+<p><code>windows</code>：配置存放目录<code>C:\Users\用户名\AppData\Roaming\JetBrains\IntelliJIdea2022.1</code></p>
+</li>
+<li>
+<p><code>mac</code>: 配置存放目录</p>
+</li>
+</ul>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> IDE激活</h3>
+<p><a href="https://www.jetbrains.com/shop/eform/opensource" target="_blank" rel="noopener noreferrer">申请开源开发许可证</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>直播入门攻略二 | StreamFX 篇：最强大的 OBS 插件</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/2_obs_streamfx.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/2_obs_streamfx.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">直播入门攻略二 | StreamFX 篇：最强大的 OBS 插件</source>
-      <description>StreamFX 提供了来源镜像、模糊滤镜、着色器滤镜等多种效果，是 OBS 必装的效果插件。本文将介绍 StreamFX 的 28 种滤镜效果。 安装 StreamFX 在 StreamFX 发布页上按平台选择安装包。StreamFX for OBS 29 处于测试阶段，在升级此插件前，请按照卸载教程执行旧版清理。</description>
-      <category>工具</category>
-      <pubDate>Fri, 28 Jul 2023 03:06:23 GMT</pubDate>
-      <content:encoded><![CDATA[<p>StreamFX 提供了来源镜像、模糊滤镜、着色器滤镜等多种效果，是 OBS 必装的效果插件。本文将介绍 StreamFX 的 28 种滤镜效果。</p>
-<h2> 安装 StreamFX</h2>
-<p>在 <a href="https://github.com/Xaymar/obs-StreamFX/releases" target="_blank" rel="noopener noreferrer">StreamFX 发布页</a>上按平台选择安装包。StreamFX for OBS 29 处于测试阶段，在升级此插件前，请按照<a href="https://github.com/Xaymar/obs-StreamFX/wiki/Uninstallation" target="_blank" rel="noopener noreferrer">卸载教程</a>执行旧版清理。</p>
-<p>安装成功后，StreamFX 会出现在 OBS 上方的菜单栏上。下文中，我将使用不同滤镜处理样图，并提供对比图。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-23-27-34.png" alt="" tabindex="0" loading="lazy"><figcaption>样例原图</figcaption></figure>
-<h2> 来源镜像</h2>
-<p><a href="https://github.com/Xaymar/obs-StreamFX/wiki/Source-Mirror" target="_blank" rel="noopener noreferrer">来源镜像</a>（Source Mirror）是一种来源，而不是滤镜。它可以克隆任何源或场景，并将其应用于当前场景。对来源镜像叠加滤镜和任意效果，都不会对原始来源造成影响。</p>
-<h2> 3D 转换</h2>
-<p><a href="https://github.com/Xaymar/obs-StreamFX/wiki/Filter-3D-Transform" target="_blank" rel="noopener noreferrer">3D 转换</a>（3D Transform）可以将 2D 图片的坐标系转换为三维，从而可以自由旋转、移动和缩放，形成类似星球大战中的字幕特效。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-23-27-01.png" alt="" tabindex="0" loading="lazy"><figcaption>3D 转换</figcaption></figure>
-<h2> 模糊</h2>
-<p><a href="https://github.com/Xaymar/obs-StreamFX/wiki/Filter-Blur" target="_blank" rel="noopener noreferrer">模糊</a>（Blur Filter）提供五种模糊类型：Box、Box Linear、Gaussian、Gaussian Liner 和 Dual-Filtering。一般来说，建议将类型设置为「Dual Filtering（双重过滤）」，大小为 4，应用蒙版后可以选择模糊区域。与 Gaussian 类型相比，Dual Filtering 生成模糊效果最快，对配置要求也更低。</p>
-<figure><img src="https://img.newzone.top/2023-01-08-06-49-05.png" alt="" tabindex="0" loading="lazy"><figcaption>右侧为模糊效果</figcaption></figure>
-<figure><img src="https://img.newzone.top/2023-01-06-02-51-10.png" alt="" tabindex="0" loading="lazy"><figcaption>模糊滤镜设置</figcaption></figure>
-<h2> 动态蒙版</h2>
-<p><a href="https://github.com/Xaymar/obs-StreamFX/wiki/Filter-Dynamic-Mask" target="_blank" rel="noopener noreferrer">动态蒙版</a>（Dynamic Mask）允许叠加任意来源或场景，并使用红色、绿色、蓝色和 alpha 通道建立画面蒙版。下图展示了使用红色通道叠加雨滴来源的效果。</p>
-<figure><img src="https://img.newzone.top/2023-01-08-07-05-42.png" alt="" tabindex="0" loading="lazy"><figcaption>动态蒙版</figcaption></figure>
-<h2> SDF 特效</h2>
-<p><a href="https://github.com/Xaymar/obs-StreamFX/wiki/Filter-SDF-Effects" target="_blank" rel="noopener noreferrer">SDF 特效</a>（Shader Signed Distance Field Effects）仅对拥有透明图层的画面有效，比如被移除背景后的摄像头画面。SDF 特效会对外观轮廓进行发光处理，并占用大量显存性能。![<a href="https://jishuin.proginn.com/p/763bfbd5a086" target="_blank" rel="noopener noreferrer">什么是 SDF？</a>] ![<a href="https://github.com/Xaymar/obs-StreamFX/issues/512" target="_blank" rel="noopener noreferrer">"SDF Effects" filter is undocumented</a>]</p>
-<figure><img src="https://img.newzone.top/2023-01-09-18-56-14.webp" alt="" tabindex="0" loading="lazy"><figcaption>SDF 特效-外发光+变形</figcaption></figure>
-<h2> 着色器</h2>
-<p>着色器滤镜位于 <code>%ProgramFiles%/obs-studio/data/obs-plugins/StreamFX/examples/shaders/filter</code>，后缀均为 <code>.effect</code>。切换着色器文件后，需点击「刷新选项和参数」。</p>
-<h3> 色彩滤镜</h3>
-<ul>
-<li>
-<p>colorize：对画面重新着色，效果与色彩校正滤镜相似。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-23-11-16.png" alt="" tabindex="0" loading="lazy"><figcaption>colorize</figcaption></figure>
-</li>
-<li>
-<p>posterize：向上下周围放入像素值。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-22-46-26.png" alt="" tabindex="0" loading="lazy"><figcaption>posterize</figcaption></figure>
-</li>
-<li>
-<p>smaa：将画面的轮廓线条化。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-22-03-18.png" alt="" tabindex="0" loading="lazy"><figcaption>smaa</figcaption></figure>
-</li>
-</ul>
-<h3> 位移变换</h3>
-<ul>
-<li>
-<p>bulge_pinch：挤压滤镜，使图像的中心产生凸起或凹下的效果，可生成循环凸凹的动画。</p>
-<p><img src="https://img.newzone.top/2023-01-07-23-14-10.png" alt="" title="bulge_pinch 凸起效果" loading="lazy"><br>
-<img src="https://img.newzone.top/2023-01-07-23-14-47.png" alt="" title="bulge_pinch 凹下的效果" loading="lazy"></p>
-</li>
-<li>
-<p>displace：置换滤镜，可以产生弯曲，碎裂的图像效果。置换滤镜比较特殊的是设置完毕后，还需要选择一个图像文件作为位移图，滤镜根据位移图上的颜色值移动图像像素。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-23-02-59.png" alt="" tabindex="0" loading="lazy"><figcaption>displace</figcaption></figure>
-</li>
-<li>
-<p>drunk：画面随机晃动</p>
-<figure><img src="https://img.newzone.top/2023-01-07-22-57-18.gif?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption>drunk</figcaption></figure>
-</li>
-<li>
-<p>swirl：漩涡打旋效果，可调整旋涡位置和大小，并可呈现漩涡的正反转动态效果。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-22-06-45.png" alt="" tabindex="0" loading="lazy"><figcaption>swirl</figcaption></figure>
-</li>
-<li>
-<p>wave：波浪滤镜是通过坐标变换来模拟水波效果，使图像呈现出水波的扭曲特效。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-22-12-23.png" alt="" tabindex="0" loading="lazy"><figcaption>wave</figcaption></figure>
-</li>
-<li>
-<p>zigzag：使图像产生同心圆状的波纹效果。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-22-30-25.png" alt="" tabindex="0" loading="lazy"><figcaption>zigzag</figcaption></figure>
-</li>
-</ul>
-<h3> 画面遮盖</h3>
-<ul>
-<li>
-<p>pixelation：像素化滤镜，可选择滤镜范围。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-22-48-41.png" alt="" tabindex="0" loading="lazy"><figcaption>pixelation</figcaption></figure>
-</li>
-<li>
-<p>hexagonize：用六角形状元素重构画面，可调节蜂窝元素的大小。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-22-50-21.png" alt="" tabindex="0" loading="lazy"><figcaption>hexagonize</figcaption></figure>
-</li>
-<li>
-<p>semiline：百叶窗栅格形滤镜，让画面像被一个关闭中的百叶窗遮盖。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-22-32-17.png" alt="" tabindex="0" loading="lazy"><figcaption>semiline</figcaption></figure>
-</li>
-<li>
-<p>blur-gaussian：模糊滤镜效果（高斯），对硬件配置要求高。</p>
-</li>
-</ul>
-<h3> 增强滤镜</h3>
-<ul>
-<li>
-<p>vignette：晕影/虚光照，用以增强镜头感，突出拍摄主体，营造画面的意境氛围。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-22-10-30.png" alt="" tabindex="0" loading="lazy"><figcaption>vignette</figcaption></figure>
-</li>
-<li>
-<p>rounded-rect：圆角矩形渲染</p>
-<figure><img src="https://img.newzone.top/2023-01-07-22-43-07.png" alt="" tabindex="0" loading="lazy"><figcaption>rounded-rect</figcaption></figure>
-</li>
-<li>
-<p>crt-curvature：将画面放置于 CRT 电视中，可调整画面曲率和四周的光晕颜色。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-23-09-05.png" alt="" tabindex="0" loading="lazy"><figcaption>crt-curvature</figcaption></figure>
-</li>
-<li>
-<p>crt-scanlines：仿 CRT 扫描线效果。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-23-06-17.gif?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption>crt-scanlines</figcaption></figure>
-</li>
-<li>
-<p>repeat：将画面复制排列，例图是 3x3 复制画面。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-22-44-59.png" alt="" tabindex="0" loading="lazy"><figcaption>repeat</figcaption></figure>
-</li>
-<li>
-<p>fxaa：快速近似抗锯齿，是一种「比较廉价」的抗锯齿技术，多用于游戏直播/录制，适用于性能不高的电脑配置。</p>
-</li>
-</ul>
-<h2> N 卡滤镜</h2>
-<p>本部分的滤镜需要需 NVIDIA 2060 及以上显卡，并安装 <a href="https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-sdk/resources/" target="_blank" rel="noopener noreferrer">NVIDIA Video Effects &amp; AR SDK Redistributable</a>。这些滤镜效果均可用 NVIDIA Broadcast 实现。</p>
-<ul>
-<li>
-<p><a href="https://github.com/Xaymar/obs-StreamFX/wiki/Filter-Upscaling" target="_blank" rel="noopener noreferrer">画质提升</a>（Upscaling）：提升画质分辨率，可以将老式摄像头提升到 4K 画质。</p>
-</li>
-<li>
-<p><a href="https://github.com/Xaymar/obs-StreamFX/wiki/Filter-Denoising" target="_blank" rel="noopener noreferrer">降噪</a>（Denoising Filter）：对画面进行降噪。</p>
-</li>
-<li>
-<p><a href="https://github.com/Xaymar/obs-StreamFX/wiki/Filter-Auto-Framing" target="_blank" rel="noopener noreferrer">自动帧</a>（Auto-Framing）：通过 NVIDIA AR 的自动追踪人脸技术，自动裁剪和放大用户、并且在用户移动时保持帧居中。</p>
-</li>
-<li>
-<p><a href="https://github.com/Xaymar/obs-StreamFX/wiki/Filter-Virtual-Greenscreen" target="_blank" rel="noopener noreferrer">英伟达背景移除</a>（Virtual Greenscreen）：无需绿幕也能帮你移除人像背景，移除效果略逊色于 NVIDIA Broadcast。样图是用的是漫画，如果是真人画面，移除效果会好很多。</p>
-<figure><img src="https://img.newzone.top/2023-01-07-23-19-50.png" alt="" tabindex="0" loading="lazy"><figcaption>人像背景移除</figcaption></figure>
-</li>
-</ul>
+      <title>快捷键设置</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/02-%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/02-%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">快捷键设置</source>
+      <description>快捷键设置 File -&amp;gt; Settings... -&amp;gt; Keymap Ctrl+D 删除当前行 Ctrl+Alt+向下箭头 复制选中的行到下一行并另起一行 F3 选中快速打开文件所在位置</description>
+      <category>idea</category>
+      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
+      <content:encoded><![CDATA[<h3> 快捷键设置</h3>
+<p><code>File</code> -&gt; <code>Settings...</code> -&gt; <code>Keymap</code></p>
+<p><code>Ctrl+D</code> 删除当前行<br>
+<code>Ctrl+Alt+向下箭头</code> 复制选中的行到下一行并另起一行<br>
+<img src="/images/idea/idea-keymap-1.png" alt="idea-keymap.png" loading="lazy"></p>
+<p><code>F3</code> 选中快速打开文件所在位置<br>
+<img src="/images/idea/idea-keymap-2.png" alt="idea-keymap.png" loading="lazy"></p>
+<p><code>F2</code> 文件重命名<br>
+<img src="/images/idea/idea-keymap-3.png" alt="idea-keymap.png" loading="lazy"></p>
+<p>debug <code>F10</code> 跳出当前方法<br>
+<img src="/images/idea/idea-keymap-4.png" alt="idea-keymap.png" loading="lazy"></p>
+<p><code>RestfulTool</code>插件根据url快速定位controller<br>
+<img src="/images/idea/idea-keymap-5.png" alt="idea-keymap.png" loading="lazy"></p>
+<p><code>Ctrl+鼠标滚轮向上滚</code>：放大字体<br>
+<img src="/images/idea/idea-keymap-06.png" alt="idea-keymap.png" loading="lazy"></p>
+<p><code>Ctrl+鼠标滚轮向下滚</code>：缩小字体<br>
+<img src="/images/idea/idea-keymap-07.png" alt="idea-keymap.png" loading="lazy"></p>
+<p><code>ctrl+alt+/</code>：自动添加注释<br>
+<img src="/images/idea/idea-keymap-08.png" alt="idea-keymap.png" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/images/idea/idea-keymap-1.png" type="image/png"/>
+    </item>
+    <item>
+      <title>常用快捷键</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/03-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/03-%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">常用快捷键</source>
+      <description>windows 常用快捷键 快捷键 描述 alt+/ 功能很多，ex：快速生成变量，导包，解决错误等 alt+ insert 生成 getter/setter 方法、toString 等 ctrl + f 替换文字(注意：勾选右边的 Match Case 可区分大小写哦) ctrl+alt+t try-catch ctrl+d 删除行 ctrl+alt+下键 复制拷贝本行内容 shift+shift 查找内容 ctrl+shift+v 查看最近复制的内容 ctrl+e 打开最近用的文件 选择类名按 ctrl + t 可查看此接口实现类 ctrl+f9 编译 选中异常按 F4 可查看相关异常分类 ctrl+shift+y 选择小写字母可转换成大写字母即切换选择字母的大小写 ctrl+shift+o 自动导包和删除无用包 ctrl+alt+L 格式化代码样式 if 的快捷键 --&amp;gt; ifn -&amp;gt; null inn -&amp;gt; !=null Ctrl+Shift+Alt+U 查看类图 ctrl+alt+b IDEA 直接跳转到方法的实现类 F2 keymap -&amp;gt; rename F3 keymap -&amp;gt; show in explorer</description>
+      <category>idea</category>
+      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
+      <content:encoded><![CDATA[<h3> windows 常用快捷键</h3>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>alt+/</td>
+<td>功能很多，ex：快速生成变量，导包，解决错误等</td>
+</tr>
+<tr>
+<td>alt+ insert</td>
+<td>生成 getter/setter 方法、toString 等</td>
+</tr>
+<tr>
+<td>ctrl + f</td>
+<td>替换文字(注意：勾选右边的 Match Case 可区分大小写哦)</td>
+</tr>
+<tr>
+<td>ctrl+alt+t</td>
+<td>try-catch</td>
+</tr>
+<tr>
+<td>ctrl+d</td>
+<td>删除行</td>
+</tr>
+<tr>
+<td>ctrl+alt+下键</td>
+<td>复制拷贝本行内容</td>
+</tr>
+<tr>
+<td>shift+shift</td>
+<td>查找内容</td>
+</tr>
+<tr>
+<td>ctrl+shift+v</td>
+<td>查看最近复制的内容</td>
+</tr>
+<tr>
+<td>ctrl+e</td>
+<td>打开最近用的文件</td>
+</tr>
+<tr>
+<td>选择类名按 ctrl + t</td>
+<td>可查看此接口实现类</td>
+</tr>
+<tr>
+<td>ctrl+f9</td>
+<td>编译</td>
+</tr>
+<tr>
+<td>选中异常按 F4</td>
+<td>可查看相关异常分类</td>
+</tr>
+<tr>
+<td>ctrl+shift+y</td>
+<td>选择小写字母可转换成大写字母即切换选择字母的大小写</td>
+</tr>
+<tr>
+<td>ctrl+shift+o</td>
+<td>自动导包和删除无用包</td>
+</tr>
+<tr>
+<td>ctrl+alt+L</td>
+<td>格式化代码样式</td>
+</tr>
+<tr>
+<td>if 的快捷键 --&gt; ifn -&gt; null inn -&gt; !=null</td>
+<td></td>
+</tr>
+<tr>
+<td>Ctrl+Shift+Alt+U</td>
+<td>查看类图</td>
+</tr>
+<tr>
+<td>ctrl+alt+b</td>
+<td>IDEA 直接跳转到方法的实现类</td>
+</tr>
+<tr>
+<td>F2</td>
+<td>keymap -&gt; rename</td>
+</tr>
+<tr>
+<td>F3</td>
+<td>keymap -&gt; show in explorer</td>
+</tr>
+</tbody>
+</table>
+<h3> macos常用快捷键</h3>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>command+,</td>
+<td>打开 Preferences</td>
+</tr>
+<tr>
+<td>command+, –&gt;keymap</td>
+<td>搜索 duplicate 设置复制行快捷键</td>
+</tr>
+<tr>
+<td>command+, –&gt;keymap</td>
+<td>搜索 delete 设置删除行快捷键</td>
+</tr>
+<tr>
+<td>option+command+B</td>
+<td>查看子类</td>
+</tr>
+<tr>
+<td>command+F12</td>
+<td>查看类方法</td>
+</tr>
+</tbody>
+</table>
 ]]></content:encoded>
     </item>
     <item>
-      <title>直播入门攻略三 | 插件篇：OBS 进阶插件</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/3_obs_plugins.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/3_obs_plugins.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">直播入门攻略三 | 插件篇：OBS 进阶插件</source>
-      <description>OBS 与其他直播/录制应用最大的区别在于 OBS 社区，它给 OBS 带来了强大的扩展性。下文中我会介绍除 StreamFX 外的 15 款流行插件。（本文未完成，待填充） 插件安装与卸载 OBS 插件的安装模式有 Install（注册配置）和 Protable（便携）两种。便携模式的插件配置可以复制到其他电脑上使用。 若要卸载 Windows 下的 OBS 便携模式插件，可以进入 %ProgramFiles%\obs-studio\data\obs-plugins 和 %ProgramFiles%\obs-studio\obs-plugins\64bit，搜索插件名，然后删除相关文件。</description>
-      <category>工具</category>
-      <pubDate>Fri, 28 Jul 2023 03:06:23 GMT</pubDate>
-      <content:encoded><![CDATA[<p>OBS 与其他直播/录制应用最大的区别在于 OBS 社区，它给 OBS 带来了强大的扩展性。下文中我会介绍除 StreamFX 外的 15 款流行插件。（本文未完成，待填充）</p>
-<h2> 插件安装与卸载</h2>
-<p>OBS 插件的安装模式有 Install（注册配置）和 Protable（便携）两种。便携模式的插件配置可以复制到其他电脑上使用。</p>
-<p>若要卸载 Windows 下的 OBS 便携模式插件，可以进入 <code>%ProgramFiles%\obs-studio\data\obs-plugins</code> 和 <code>%ProgramFiles%\obs-studio\obs-plugins\64bit</code>，搜索插件名，然后删除相关文件。</p>
-<h2> 多平台直播：multi-rtmp</h2>
-<p><a href="https://github.com/sorayuki/obs-multi-rtmp" target="_blank" rel="noopener noreferrer">multi-rtmp</a> 使得 OBS 支持多地址推流，以为着同时在多个平台上进行直播。</p>
-<p>开启多地址推流前，你需要点击控制按钮「开始直播」，然后再点「停止直播」。</p>
-<h2> 自动切换场景</h2>
-<p><a href="https://obsproject.com/forum/resources/advanced-scene-switcher.395/" target="_blank" rel="noopener noreferrer">Advanced Scene Switcher</a>：使用「宏」来自动完成各种任务，按条件切换场景、来源。比如，电脑闲置 10 分钟后，让摄像头来源变为不可见。</p>
-<h2> Move transition</h2>
-<p><a href="https://obsproject.com/forum/resources/move-transition.913/" target="_blank" rel="noopener noreferrer">Move transition</a>：记录来源的位置变化，生成元素移动的动画效果。比如，视频演讲时，将摄像头位置从屏幕右下移动到中央。</p>
-<h2> Transition Table</h2>
-<p><a href="https://obsproject.com/forum/resources/transition-table.1174/" target="_blank" rel="noopener noreferrer">Transition Table</a>：场景切换效果，设定不同场景间的切换规则。</p>
-<h2> Source Dock</h2>
-<p><a href="https://obsproject.com/forum/resources/source-dock.1317/" target="_blank" rel="noopener noreferrer">Source Dock</a>：为单独场景或来源建立控制栏，使用小窗口预览场景。</p>
-<h2> Source Copy</h2>
-<p><a href="https://obsproject.com/forum/resources/source-copy.1261/" target="_blank" rel="noopener noreferrer">Source Copy</a>：更方便地复制、保存场景设置。</p>
-<h2> 其他</h2>
-<ul>
-<li><a href="https://obsproject.com/forum/resources/scene-collection-manager.1434/" target="_blank" rel="noopener noreferrer">Scene Collection Manager</a>：自动备份场景，防止误操作。</li>
-<li><a href="https://obsproject.com/forum/resources/audio-monitor.1186/" target="_blank" rel="noopener noreferrer">Audio Monitor</a>：将来源声音输出给指定设备播放，方便单独调节音量，能让主播与观众听到不同的音频效果。</li>
-<li><a href="https://obsproject.com/forum/resources/downstream-keyer.1254/" target="_blank" rel="noopener noreferrer">Downstream Keyer</a>：切换场景时，置顶指定场景。</li>
-<li><a href="https://github.com/norihiro/obs-multisource-effect" target="_blank" rel="noopener noreferrer">Multi Source Effect</a>：滤镜效果</li>
-<li><a href="https://github.com/fzwoch/obs-teleport" target="_blank" rel="noopener noreferrer">Teleport</a>：NDI 替代品，局域网设备推流到直播。</li>
-<li><a href="https://github.com/univrsal/spectralizer" target="_blank" rel="noopener noreferrer">spectralizer</a>：音频频谱，用滤镜「图像掩码」的「混合图层」给频谱遮罩滤镜。</li>
-<li><a href="https://obsproject.com/forum/resources/obs-ndi-newtek-ndi%E2%84%A2-integration-into-obs-studio.528/" target="_blank" rel="noopener noreferrer">NDI</a>: 局域网视频无线传输技术 NDI 插件。</li>
-<li><a href="https://obsproject.com/forum/resources/scrab.845/" target="_blank" rel="noopener noreferrer">scrab</a>：屏幕截图。添加了一个可配置的热键快速选择一个屏幕区域，并添加它作为一个图像源到当前场景。有人反馈 OBS 28 后有 bug，暂未修复。</li>
-<li><a href="https://obsproject.com/forum/resources/lower-thirds-in-html-css.928/" target="_blank" rel="noopener noreferrer">Lower thirds in HTML/CSS</a>：文字运动特效，适合展示 logo 和标题。</li>
-<li><a href="https://obsproject.com/forum/resources/input-overlay.552/" target="_blank" rel="noopener noreferrer">Input Overlay</a>：同步显示键盘、鼠标和游戏板上的输入。</li>
-</ul>
-<h2> 美化插件</h2>
-<p>第三方的直播美化插件提供了时钟、榜单、弹幕、游戏等互动来源，用于美化直播间，新手可参考使用。美化插件免费版一般足够用了，比如 <a href="https://yun.miebo.cn/" target="_blank" rel="noopener noreferrer">咩播</a>、<a href="http://zbmate.com/" target="_blank" rel="noopener noreferrer">智播</a>。</p>
-<h2> 弃用插件</h2>
-<p>以下插件已弃用，仅作记录：</p>
-<ul>
-<li><a href="https://obsproject.com/forum/resources/virtual-cam-filter.1142/" target="_blank" rel="noopener noreferrer">Virtual Cam Filter</a>：能让来源单独输出虚拟摄像头，OBS 28 已内置此功能。</li>
-<li><a href="https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/" target="_blank" rel="noopener noreferrer">obs-websocket</a>：远程控制插件，OBS 28 已内置此功能。</li>
-<li><a href="https://obsproject.com/forum/resources/animated-captions-with-obs-controller-and-a-preview-function.1407/" target="_blank" rel="noopener noreferrer">Animated captions</a>：自定义弹幕功能，无漂浮弹幕，适用较少，仅用于 OBS 27。</li>
-<li><a href="https://obsproject.com/forum/threads/shaderfilter-went-away.155555/#post-571174" target="_blank" rel="noopener noreferrer">OBS Shaderfilter</a>：文字图片特效滤镜。此插件已被从社区删除，下载使用 <a href="https://github.com/Oncorporation/obs-shaderfilter/releases/" target="_blank" rel="noopener noreferrer">GitHub 备份</a>，其功能已被 StreamFX 取代。</li>
-<li><a href="https://obsproject.com/forum/resources/asynchronous-source-duplication.1483/" target="_blank" rel="noopener noreferrer">Asynchronous Source Duplication</a>：复制来源可以同时展示在多个场景，复制源会有延迟。其功能已被 StreamFX 的来源镜像取代。</li>
-</ul>
-<h2> 更多</h2>
-<p>如果你在上文中没有找到你需要的功能功能，可以访问 <a href="https://obsproject.com/forum/resources/categories/obs-studio-plugins.6/" target="_blank" rel="noopener noreferrer">OBS 插件库</a>进行搜索。</p>
+      <title>常用插件</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/05-%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/05-%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">常用插件</source>
+      <description>IDEA - 常用插件 ====================================== ↓↓↓↓↓↓ 个人使用必备插件 ↓↓↓↓↓↓ ====================================== 安装 插件名称 插件介绍 √ Alibaba Java Coding Guidelines 阿里代码规约检测 p3c √ Lombok 类上注解@Data 省去 getter/setter、toString 等方法滴 √ Save Actions 保存时的一些自动操作，如按下 Ctrl + S 即可自动按照阿里巴巴编码风格格式化代码 √ Git Flow Integration Git Flow 的图形界面操作 (mac 需要安装 git-flow 引擎：brew install git-flow-avh，验证：git flow version) √ Git Commit Template Git 格式化模版，可以按照实际情况格式化你的提交信息 √ arthas idea 进入代码片段，选择你要诊断的类或者方法上面，右击打开 Arthas 命令，选择一项，即可自动生成命令，省去你敲打命令的时间。 √ RestfulTool 一套 RESTful 服务开发辅助工具集，可根据 url 定位 controller √ Maven Helper Maven 依赖分析和依赖冲突快速解决 √ Easy Javadoc 光标放在需要注释的类/方法/属性上 ctrl+\自动添加注释(如果快捷键冲突需自行修改 ex:修改为 ctrl+alt+/) √ CamelCase(用这个) 或 UpperLowerCapitalize 命名风格转换插件，可以在 kebab_case，SNAKE_CASE，PascalCase，camelCase，snake_case 和 空格风格之间切换。快捷键苹果为 ⇧+⌥+ U ，windows 下为 Shift + Alt +U √ vo2dto 快速生成两个对象转换过程中所需要大量的 x.set(y.get) 代码块 √ MyBatisCodeHelperPro 在 mapper 和 xml 文件之间来回切换 &amp;amp; 解析 xml 中的 sql 快速执行 &amp;amp; 代码生成 （ 可使用临时邮箱进行在线激活使用 https://mail.td/zh ） √ Presentati Assistant (用这个) 或 Key promoter X 快捷键提示工具 (操作时展示快捷键) √ GsonFormatPlus JSON 转实体类 bean (使用方式：实体类{}中右击-&amp;gt;Generate...-&amp;gt;GsonFormatPlus-&amp;gt; 复制json -&amp;gt; ok) √ JRebel and XRebel 热部署-代码 快捷键：Ctrl+F9 √ JRebel mybatisPlus extension 热部署-xml中sql 快捷键：Ctrl+F9 √ CodeGlance Pro 类似 SublimeText 的 Mini Map 插件，一个代码编辑区缩略图插件，可以快速定位代码 √ Rainbow Brackets 黑色主题下 - 彩虹颜色的括号，对各个对称括号进行着色，方便查看 √ Grep Console 自定义设置控制台输出颜色,显示不同日志信息级别的颜色和背景色 POJO to JSON(用这个) 或 Java Bean to Json 实体类转 JSON (移动鼠标到类上 -&amp;gt; 右击 &amp;gt; Copy/Paste Special -&amp;gt; Copy JSON) maven-search Tools-&amp;gt;Maven Search搜索 maven 依赖 SonarLint 代码质量检测与优化 Free MyBatis(用这个) 或 MybatisX 在 Mybatis 的 mapper Java 接口方法和 mapper XML 文件之间来回切换 MyBatis Log Mybatis 运行后的相关 sql 日志可转换成 sql 语句直接输出在 console 中 GenerateAllSetter 生成对象 set 方法 SequenceDiagram 自动生成时序图 Material Theme UI 主题插件，在工具栏中 Tools-&amp;gt;Material Theme 修改配色 Atom Material Icons ICON 插件，附带 buff：解决 mac 拖动滚动条或是鼠标中键滚屏时卡顿问题 File Expander 在 idea 里直接打开 Jar 包，并且反编译代码查看。甚至于能打开 tar.gz，zip 等压缩格式。 JProfiler JProfiler 直觉式的 GUI 让你可以找到性能瓶颈、抓出内存漏失(memory leaks)、并解决执行绪的问题。 VisualGC Idea 堆栈的可视化工具，和 Idea 深度集成。直接显示所有进程，双击即可打开 JVM 的堆栈可视化界面。堆栈和垃圾收集情况一目了然！ IDEA Restart File 下面 Restart 可重启 idea Markdown Navigator 书写 Markdown 文章 IDEA Mind Map 画思维导图 JavaDoc 通过快捷键生成注释 【要为活动元素生成 javadocs，请按 shift + alt + G。要为当前 java 文件中的所有元素生成 javadocs，请按 shift + ctrl + alt + G。删除当前/选定元素上的 javadocs 请按 shift + alt + Z。删除当前类所有元素上的 javadocs：请按 shift + ctrl + alt + Z。】 Extra Icons 美化插件，为一些文件类型提供官方没有的图标 Gitee 开源中国的码云插件 .ignore 各类版本控制忽略文件生成工具 Translation 翻译插件 Statistic 一款可以做项目全局代码统计信息的小插件 Eclipse Code Formatter 使用 Eclipse 的代码格式化风格，在一个团队中如果公司有规定格式化风格 (阿里代码规范 code style 所需) SequenceDiagram 时序图生成工具，能够很清晰的看到依赖调用时序 HighlightBracketPair 括号开始结尾 高亮显示 IdeaJad 反编译插件 AiXcoder ai 智能编码提示 JUnitGenerator 单元测试测试生成工具 iedis redis 客户端,Redis 可视化，收费 Kubernetes K8s 工具 Zookeeper Zookeeper 可视化 FindBugs bug 预检查 Codota 不再怕对 API 不会用，举个栗子：当我们用 stream().filter() 对 List 操作，可是对 filter() 用法不熟，按常理我们会百度一下，而用 Codota 会提示很多 filter() 用法，节省不少查阅资料的时间 IntelliJad 一个 Java class 文件的反编译工具，需要在 setting 中设置本地 Java jad.exe 工具的地址。随便找个 Jar 架包选择 class 文件右键 Decompile，会出现反编译的结果 Properties to YAML Converter 将 Properties 配置文件一键转换成 YAML 文件，很实用的一个插件。「注意：要提前备份原 Properties 文件」 MOMO Code Sec Inspector 检测代码漏洞，一键修复 CSDN tools GitToolBox 能在项目上提示你还有多少文件没提交，远程还有多少文件没更新下来。还能在每一行代码上提示上次提交的时间。查版本提交问题的时候尤其方便。 Search In Repository 把中央仓库的查找集成到了 Idea 里面。只需要打开这款插件(idea 右侧边栏会有个 search 标识)，输入 jar 包的名字或者 gav 关键字，就能查到到这个 jar 包所有的版本，然后可以直接复制 gav 坐标。 Zoolytic zookeeper 节点的查看分析插件 Pom Assistant 替换 pom.xml 依赖的版本号以及对 pom.xml 排序 Flowable BPMN visualizer 流程引擎 Flowable 辅助插件 jclasslib Bytecode Viewer 查看字节码插件 使用： 菜单栏 View -&amp;gt; Show Bytecode With jclasslib Alibaba Cloud Toolkit 远程服务器登陆，部署项目，文件上传，管理你的 ECS 和 RDS 等资源 mongo4idea mongo 客户端 Jindent-Source Code Formatter 自定义类、方法、doc、变量注释模板 CheckStyle-IDEA 代码规范检查 String Manipulation 驼峰式命名和下划线命名交替变化 Java Stream Debugger debug java8的Stream流 Visual VM Launcher 本地开发进行压力测试，性能测试之类的监控器 ------ ------</description>
+      <category>idea</category>
+      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
+      <content:encoded><![CDATA[<h3> IDEA - 常用插件</h3>
+<p>====================================== ↓↓↓↓↓↓ 个人使用必备插件 ↓↓↓↓↓↓ ======================================</p>
+<table>
+<thead>
+<tr>
+<th>安装</th>
+<th>插件名称</th>
+<th>插件介绍</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>√</td>
+<td>Alibaba Java Coding Guidelines</td>
+<td>阿里代码规约检测 p3c</td>
+</tr>
+<tr>
+<td>√</td>
+<td>Lombok</td>
+<td>类上注解@Data 省去 getter/setter、toString 等方法滴</td>
+</tr>
+<tr>
+<td>√</td>
+<td>Save Actions</td>
+<td>保存时的一些自动操作，如按下 Ctrl + S 即可自动按照阿里巴巴编码风格格式化代码</td>
+</tr>
+<tr>
+<td>√</td>
+<td>Git Flow Integration</td>
+<td>Git Flow 的图形界面操作 (mac 需要安装 git-flow 引擎：<code>brew install git-flow-avh</code>，验证：<code>git flow version</code>)</td>
+</tr>
+<tr>
+<td>√</td>
+<td>Git Commit Template</td>
+<td>Git 格式化模版，可以按照实际情况格式化你的提交信息</td>
+</tr>
+<tr>
+<td>√</td>
+<td>arthas idea</td>
+<td>进入代码片段，选择你要诊断的类或者方法上面，右击打开 Arthas 命令，选择一项，即可自动生成命令，省去你敲打命令的时间。</td>
+</tr>
+<tr>
+<td>√</td>
+<td>RestfulTool</td>
+<td>一套 RESTful 服务开发辅助工具集，可根据 url 定位 controller</td>
+</tr>
+<tr>
+<td>√</td>
+<td>Maven Helper</td>
+<td>Maven 依赖分析和依赖冲突快速解决</td>
+</tr>
+<tr>
+<td>√</td>
+<td>Easy Javadoc</td>
+<td>光标放在需要注释的<code>类/方法/属性</code>上 <code>ctrl+\</code>自动添加注释(如果快捷键冲突需自行修改 ex:修改为 <code>ctrl+alt+/</code>)</td>
+</tr>
+<tr>
+<td>√</td>
+<td>CamelCase(用这个) 或 UpperLowerCapitalize</td>
+<td>命名风格转换插件，可以在 kebab_case，SNAKE_CASE，PascalCase，camelCase，snake_case 和 空格风格之间切换。快捷键苹果为 ⇧+⌥+ U ，windows 下为 Shift + Alt +U</td>
+</tr>
+<tr>
+<td>√</td>
+<td>vo2dto</td>
+<td>快速生成两个对象转换过程中所需要大量的 <code>x.set(y.get)</code> 代码块</td>
+</tr>
+<tr>
+<td>√</td>
+<td>MyBatisCodeHelperPro</td>
+<td>在 mapper 和 xml 文件之间来回切换 &amp; 解析 xml 中的 sql 快速执行 &amp; 代码生成 （ 可使用临时邮箱进行在线激活使用 <a href="https://mail.td/zh" target="_blank" rel="noopener noreferrer">https://mail.td/zh</a> ）</td>
+</tr>
+<tr>
+<td>√</td>
+<td>Presentati Assistant (用这个) 或 Key promoter X</td>
+<td>快捷键提示工具 (操作时展示快捷键)</td>
+</tr>
+<tr>
+<td>√</td>
+<td>GsonFormatPlus</td>
+<td>JSON 转实体类 bean (使用方式：<code>实体类{}中右击</code>-&gt;<code>Generate...</code>-&gt;<code>GsonFormatPlus</code>-&gt; <code>复制json</code> -&gt; <code>ok</code>)</td>
+</tr>
+<tr>
+<td>√</td>
+<td>JRebel and XRebel</td>
+<td>热部署-代码 快捷键：Ctrl+F9</td>
+</tr>
+<tr>
+<td>√</td>
+<td>JRebel mybatisPlus extension</td>
+<td>热部署-xml中sql 快捷键：Ctrl+F9</td>
+</tr>
+<tr>
+<td>√</td>
+<td>CodeGlance Pro</td>
+<td>类似 SublimeText 的 Mini Map 插件，一个代码编辑区缩略图插件，可以快速定位代码</td>
+</tr>
+<tr>
+<td>√</td>
+<td>Rainbow Brackets</td>
+<td>黑色主题下 - 彩虹颜色的括号，对各个对称括号进行着色，方便查看</td>
+</tr>
+<tr>
+<td>√</td>
+<td>Grep Console</td>
+<td>自定义设置控制台输出颜色,显示不同日志信息级别的颜色和背景色</td>
+</tr>
+<tr>
+<td></td>
+<td>POJO to JSON(用这个) 或 Java Bean to Json</td>
+<td>实体类转 JSON  (<code>移动鼠标到类上</code> -&gt; <code>右击</code> &gt; <code>Copy/Paste Special</code> -&gt; <code>Copy JSON</code>)</td>
+</tr>
+<tr>
+<td></td>
+<td>maven-search</td>
+<td><code>Tools</code>-&gt;<code>Maven Search</code>搜索 maven 依赖</td>
+</tr>
+<tr>
+<td></td>
+<td>SonarLint</td>
+<td>代码质量检测与优化</td>
+</tr>
+<tr>
+<td></td>
+<td>Free MyBatis(用这个) 或 MybatisX</td>
+<td>在 Mybatis 的 mapper Java 接口方法和 mapper XML 文件之间来回切换</td>
+</tr>
+<tr>
+<td></td>
+<td>MyBatis Log</td>
+<td>Mybatis 运行后的相关 sql 日志可转换成 sql 语句直接输出在 console 中</td>
+</tr>
+<tr>
+<td></td>
+<td>GenerateAllSetter</td>
+<td>生成对象 set 方法</td>
+</tr>
+<tr>
+<td></td>
+<td>SequenceDiagram</td>
+<td>自动生成时序图</td>
+</tr>
+<tr>
+<td></td>
+<td>Material Theme UI</td>
+<td>主题插件，在工具栏中 Tools-&gt;Material Theme 修改配色</td>
+</tr>
+<tr>
+<td></td>
+<td>Atom Material Icons</td>
+<td>ICON 插件，附带 buff：解决 mac 拖动滚动条或是鼠标中键滚屏时卡顿问题</td>
+</tr>
+<tr>
+<td></td>
+<td>File Expander</td>
+<td>在 idea 里直接打开 Jar 包，并且反编译代码查看。甚至于能打开 tar.gz，zip 等压缩格式。</td>
+</tr>
+<tr>
+<td></td>
+<td>JProfiler</td>
+<td>JProfiler 直觉式的 GUI 让你可以找到性能瓶颈、抓出内存漏失(memory leaks)、并解决执行绪的问题。</td>
+</tr>
+<tr>
+<td></td>
+<td>VisualGC</td>
+<td>Idea 堆栈的可视化工具，和 Idea 深度集成。直接显示所有进程，双击即可打开 JVM 的堆栈可视化界面。堆栈和垃圾收集情况一目了然！</td>
+</tr>
+<tr>
+<td></td>
+<td>IDEA Restart</td>
+<td>File 下面 Restart 可重启 idea</td>
+</tr>
+<tr>
+<td></td>
+<td>Markdown Navigator</td>
+<td>书写 Markdown 文章</td>
+</tr>
+<tr>
+<td></td>
+<td>IDEA Mind Map</td>
+<td>画思维导图</td>
+</tr>
+<tr>
+<td></td>
+<td>JavaDoc</td>
+<td>通过快捷键生成注释 【要为活动元素生成 javadocs，请按 shift + alt + G。要为当前 java 文件中的所有元素生成 javadocs，请按 shift + ctrl + alt + G。删除当前/选定元素上的 javadocs 请按 shift + alt + Z。删除当前类所有元素上的 javadocs：请按 shift + ctrl + alt + Z。】</td>
+</tr>
+<tr>
+<td></td>
+<td>Extra Icons</td>
+<td>美化插件，为一些文件类型提供官方没有的图标</td>
+</tr>
+<tr>
+<td></td>
+<td>Gitee</td>
+<td>开源中国的码云插件</td>
+</tr>
+<tr>
+<td></td>
+<td>.ignore</td>
+<td>各类版本控制忽略文件生成工具</td>
+</tr>
+<tr>
+<td></td>
+<td>Translation</td>
+<td>翻译插件</td>
+</tr>
+<tr>
+<td></td>
+<td>Statistic</td>
+<td>一款可以做项目全局代码统计信息的小插件</td>
+</tr>
+<tr>
+<td></td>
+<td>Eclipse Code Formatter</td>
+<td>使用 Eclipse 的代码格式化风格，在一个团队中如果公司有规定格式化风格 (阿里代码规范 code style 所需)</td>
+</tr>
+<tr>
+<td></td>
+<td>SequenceDiagram</td>
+<td>时序图生成工具，能够很清晰的看到依赖调用时序</td>
+</tr>
+<tr>
+<td></td>
+<td>HighlightBracketPair</td>
+<td>括号开始结尾 高亮显示</td>
+</tr>
+<tr>
+<td></td>
+<td>IdeaJad</td>
+<td>反编译插件</td>
+</tr>
+<tr>
+<td></td>
+<td>AiXcoder</td>
+<td>ai 智能编码提示</td>
+</tr>
+<tr>
+<td></td>
+<td>JUnitGenerator</td>
+<td>单元测试测试生成工具</td>
+</tr>
+<tr>
+<td></td>
+<td>iedis</td>
+<td>redis 客户端,Redis 可视化，收费</td>
+</tr>
+<tr>
+<td></td>
+<td>Kubernetes</td>
+<td>K8s 工具</td>
+</tr>
+<tr>
+<td></td>
+<td>Zookeeper</td>
+<td>Zookeeper 可视化</td>
+</tr>
+<tr>
+<td></td>
+<td>FindBugs</td>
+<td>bug 预检查</td>
+</tr>
+<tr>
+<td></td>
+<td>Codota</td>
+<td>不再怕对 API 不会用，举个栗子：当我们用 stream().filter() 对 List 操作，可是对 filter() 用法不熟，按常理我们会百度一下，而用 Codota 会提示很多 filter() 用法，节省不少查阅资料的时间</td>
+</tr>
+<tr>
+<td></td>
+<td>IntelliJad</td>
+<td>一个 Java class 文件的反编译工具，需要在 setting 中设置本地 Java jad.exe 工具的地址。随便找个 Jar 架包选择 class 文件右键 Decompile，会出现反编译的结果</td>
+</tr>
+<tr>
+<td></td>
+<td>Properties to YAML Converter</td>
+<td>将 Properties 配置文件一键转换成 YAML 文件，很实用的一个插件。「注意：要提前备份原 Properties 文件」</td>
+</tr>
+<tr>
+<td></td>
+<td>MOMO Code Sec Inspector</td>
+<td>检测代码漏洞，一键修复</td>
+</tr>
+<tr>
+<td></td>
+<td>CSDN tools</td>
+<td><img src="https://img-blog.csdnimg.cn/20201027175009455.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzMzNDY0MDcz,size_16,color_FFFFFF,t_70" alt="功能使用示例" loading="lazy"></td>
+</tr>
+<tr>
+<td></td>
+<td>GitToolBox</td>
+<td>能在项目上提示你还有多少文件没提交，远程还有多少文件没更新下来。还能在每一行代码上提示上次提交的时间。查版本提交问题的时候尤其方便。</td>
+</tr>
+<tr>
+<td></td>
+<td>Search In Repository</td>
+<td>把中央仓库的查找集成到了 Idea 里面。只需要打开这款插件(idea 右侧边栏会有个 search 标识)，输入 jar 包的名字或者 gav 关键字，就能查到到这个 jar 包所有的版本，然后可以直接复制 gav 坐标。</td>
+</tr>
+<tr>
+<td></td>
+<td>Zoolytic</td>
+<td>zookeeper 节点的查看分析插件</td>
+</tr>
+<tr>
+<td></td>
+<td>Pom Assistant</td>
+<td>替换 pom.xml 依赖的版本号以及对 pom.xml 排序</td>
+</tr>
+<tr>
+<td></td>
+<td>Flowable BPMN visualizer</td>
+<td>流程引擎 Flowable 辅助插件</td>
+</tr>
+<tr>
+<td></td>
+<td>jclasslib Bytecode Viewer</td>
+<td>查看字节码插件 使用： 菜单栏 View -&gt; Show Bytecode With jclasslib</td>
+</tr>
+<tr>
+<td></td>
+<td>Alibaba Cloud Toolkit</td>
+<td>远程服务器登陆，部署项目，文件上传，管理你的 ECS 和 RDS 等资源</td>
+</tr>
+<tr>
+<td></td>
+<td>mongo4idea</td>
+<td>mongo 客户端</td>
+</tr>
+<tr>
+<td></td>
+<td>Jindent-Source Code Formatter</td>
+<td>自定义类、方法、doc、变量注释模板</td>
+</tr>
+<tr>
+<td></td>
+<td>CheckStyle-IDEA</td>
+<td>代码规范检查</td>
+</tr>
+<tr>
+<td></td>
+<td>String Manipulation</td>
+<td>驼峰式命名和下划线命名交替变化</td>
+</tr>
+<tr>
+<td></td>
+<td>Java Stream Debugger</td>
+<td>debug java8的Stream流</td>
+</tr>
+<tr>
+<td></td>
+<td>Visual VM Launcher</td>
+<td>本地开发进行压力测试，性能测试之类的监控器</td>
+</tr>
+<tr>
+<td></td>
+<td>------</td>
+<td>------</td>
+</tr>
+</tbody>
+</table>
+<h3> 其它的一些不怎么用的插件</h3>
+<table>
+<thead>
+<tr>
+<th>安装</th>
+<th>插件名称</th>
+<th>插件介绍</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>activate-power-mode</td>
+<td>打字炫酷</td>
+</tr>
+<tr>
+<td></td>
+<td>IdeaVim</td>
+<td>Vim 仿真插件</td>
+</tr>
+<tr>
+<td></td>
+<td>Shifter</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>BrowseWordAtCaret</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>AceJump</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Nyan Progress Bar</td>
+<td>进度条变成萌新动画</td>
+</tr>
+<tr>
+<td></td>
+<td>Deep TabNine</td>
+<td>智能编码插件 目前 TabNine 暂时只支持 VS Code、Sublime Text、Atom、Emacs、Vim 五种代码编辑器。</td>
+</tr>
+<tr>
+<td></td>
+<td>Background Image Plus</td>
+<td>设置 idea 背景滴</td>
+</tr>
+<tr>
+<td></td>
+<td>StackOverflow</td>
+<td>选中错误信息右击一键使用 google 搜索滴</td>
+</tr>
+<tr>
+<td></td>
+<td>Markdown support</td>
+<td><a href="http://xn--h0tw7e.md" target="_blank" rel="noopener noreferrer">打开.md</a> 文件就可以通过一个支持 md 的视图查看和编辑内容</td>
+</tr>
+<tr>
+<td></td>
+<td>idea-mybatis-generator</td>
+<td>代码生成器</td>
+</tr>
+<tr>
+<td></td>
+<td>codehelper.generator</td>
+<td>在创建一个对象并赋值的时候，根据 new 关键字，自动生成掉用 set 方法的代码，还可以一键填入默认值。</td>
+</tr>
+<tr>
+<td></td>
+<td>REST Client</td>
+<td>快速测试 API 接口</td>
+</tr>
+<tr>
+<td></td>
+<td>UML</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>MetricsReloaded</td>
+<td>代码复杂度检查</td>
+</tr>
+<tr>
+<td></td>
+<td>IDE Features Trainer</td>
+<td>IntelliJ IDEA 官方出的学习辅助插件</td>
+</tr>
+</tbody>
+</table>
 ]]></content:encoded>
+      <enclosure url="https://img-blog.csdnimg.cn/20201027175009455.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzMzNDY0MDcz,size_16,color_FFFFFF,t_70" type="image/"/>
     </item>
     <item>
-      <title>直播入门攻略四 | 特效篇：美颜、变声、多开、虚拟主播</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/4_live_effects.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/4_live_effects.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">直播入门攻略四 | 特效篇：美颜、变声、多开、虚拟主播</source>
-      <description>虽然 OBS 的功能已经非常强大，但通过第三方软件可以更简单地给我们带来美颜、变声、虚拟主播等特效。 美颜 推荐使用 YY 开播来实现直播美颜功能。 打开 YY 开播，调用摄像头摄像，开启美颜功能。然后，在 OBS 中调用 YY 开播，如果有绿幕，可以添加「色度值」滤镜进行视频抠图。一旦配置好，下次启动 OBS 时，软件会自动调用 YY 开播开启美颜，无需重复配置。但是，「美颜 + 直播」对电脑配置的要求较高，如果直播画面出现明显卡顿，建议关闭 YY 开播。</description>
-      <category>工具</category>
-      <pubDate>Fri, 28 Jul 2023 03:06:23 GMT</pubDate>
-      <content:encoded><![CDATA[<p>虽然 OBS 的功能已经非常强大，但通过第三方软件可以更简单地给我们带来美颜、变声、虚拟主播等特效。</p>
-<h2> 美颜</h2>
-<p>推荐使用 <a href="https://v.yy.com/" target="_blank" rel="noopener noreferrer">YY 开播</a>来实现直播美颜功能。</p>
-<p>打开 YY 开播，调用摄像头摄像，开启美颜功能。然后，在 OBS 中调用 YY 开播，如果有绿幕，可以添加「色度值」滤镜进行视频抠图。一旦配置好，下次启动 OBS 时，软件会自动调用 YY 开播开启美颜，无需重复配置。但是，「美颜 + 直播」对电脑配置的要求较高，如果直播画面出现明显卡顿，建议关闭 YY 开播。</p>
-<p><strong>使用注意</strong>：</p>
-<ul>
-<li>剧烈运动时，不要开美颜直播，否则容易卡顿。</li>
-<li>不要开启 YY 直播中除美颜外的功能，如虚拟背景、虚拟形象等，否则直播中的画面背景无法透明化。</li>
-</ul>
-<h2> 变声</h2>
-<p>直播变声可以通过硬件和软件两种方式实现。软件变声器，如 MorphVOX Pro 和神舌，对使用者的语气要求较高。我在淘宝找人进行了声音精调，但效果仍然无法仿真。店家发的语气教程也没有太多参考价值，初学者很难入门。硬件变声器的效果更加糟糕，强烈不推荐。</p>
-<h2> 虚拟主播</h2>
-<p>如果不想录脸直播，可以配合软件使用虚拟形象直播。此类换脸软件会占用较高的 CPU，需要使用三年内的主流配置。</p>
-<h3> Snap Camera</h3>
-<p><a href="https://snapcamera.snapchat.com/" target="_blank" rel="noopener noreferrer">Snap Camera</a> 是 SnapChat 的免费增强现实应用。它可以帮助你在电脑直播/录屏时实现挡脸头套、美化滤镜等特效。如果你熟悉 3D 建模，可以使用 Lens Studio 定制属于你自己的变脸特效。但需要注意的是，当你喝水、低头或脸部被遮挡时，脸部特效会失效。</p>
-<figure><img src="https://img.newzone.top/SnapCamera.gif?imageMogr2/format/webp" alt="Snap Camera 效果图" tabindex="0" loading="lazy"><figcaption>Snap Camera 效果图</figcaption></figure>
-<p>如果你无法使用 Snap Camera，可以尝试 FaceRig 和 PrprLive。</p>
-<h3> FaceRig</h3>
-<p><a href="https://store.steampowered.com/app/274920/FaceRig/" target="_blank" rel="noopener noreferrer">FaceRig</a>（Steam 已停售）可以通过对五官的动作捕捉，让卡通脸的表情进行同步变化，但不能对头部以下的部分进行捕捉和同步。使用时，需要打开 FaceRig 中的「切换广播」，否则 OBS 窗口会显示为黑屏。</p>
-<figure><img src="https://img.newzone.top/20210329092154.gif?imageMogr2/format/webp" alt="FaceRig 演示图" tabindex="0" loading="lazy"><figcaption>FaceRig 演示图</figcaption></figure>
-<p>注意：百度搜索 FaceRig 的首个结果是<strong>虚假官网</strong>，价格高且无保障，不要在上面进行购买。</p>
-<h3> PrprLive</h3>
-<p><a href="https://store.steampowered.com/app/1279610/PrprLive/" target="_blank" rel="noopener noreferrer">PrprLive</a> 是国内的变脸软件，基础版免费，同样在 Steam 销售，付费前先试试基础版。</p>
-<h2> 动态素材</h2>
-<p>为了丰富直播场景，可以使用带绿幕的视频来添加动态特效，或者借助类虚拟主播技术来实现交互。例如 <a href="https://d.appinn.com/bongo-cat-mver/" target="_blank" rel="noopener noreferrer">Bongo Cat Mver</a>，它能实时同步键盘与鼠标状态，增加直播趣味性。如果你使用的是 Bongo Cat 全键盘同步模型，建议打乱映射规则，以防止隐私泄露。</p>
-<figure><img src="https://img.newzone.top/2022-06-30-08-29-40.png" alt="直播间的猫咪" tabindex="0" loading="lazy"><figcaption>直播间的猫咪</figcaption></figure>
-<h2> 摄像头多开</h2>
-<p>摄像头默认只能被一个应用调用。借助 <a href="https://splitcam.com/" target="_blank" rel="noopener noreferrer">SplitCam</a>，你能在摄像头画面上叠加元素，使用镜像、高亮滤镜微调画面，还能让摄像头画面同步给多个应用。</p>
-<p>例如，摄像头可以同时用于 OBS 直播和 Capture 录屏，在不同用途上可以叠加不同滤镜和特效，呈现出不同的画面。</p>
-<p><strong>使用流程</strong>：</p>
-<ol>
-<li>打开 SplitCam，选择默认摄像头。</li>
-<li>Snap Camera、Capture 等第三方调用摄像头时，选择「SplitCam Video Driver」。</li>
-</ol>
-<h2> 其他应用</h2>
-<h3> NVIDIA BROADCAST</h3>
-<p>如果你使用的是 NVIDIA 显卡，强烈推荐安装 <a href="https://www.nvidia.cn/geforce/guides/broadcast-app-setup-guide/" target="_blank" rel="noopener noreferrer">NVIDIA Broadcast</a>。它利用 AI 的强大功能将标准网络摄像头和麦克风升级为高端智能设备，通过麦克风去噪、房间回声消除、虚拟背景、网络摄像头人像跟踪和视频降噪等 AI 功能，提高直播的视频和音频质量。通过 NVIDIA RTX GPU 上搭载的名为 Tensor Core 的专用 AI 处理器，AI 网络能够实时运行高质量的效果。</p>
-<h3> 小葫芦弹幕助手</h3>
-<p><a href="https://zs.xiaohulu.com/danmu/" target="_blank" rel="noopener noreferrer">小葫芦弹幕助手</a>可实时显示网友的互动和打赏，尤其适合游戏直播。但是，由于弹幕答谢、自动定时弹幕、手动弹幕等功能已暂停，不建议新手充值会员。</p>
-<p>如果不需要在直播界面中显示弹幕，不要安装小葫芦弹幕插件。安装后，会影响 OBS 窗口捕获功能，无法抓取基于 Electron 的应用界面，从而导致窗口捕捉黑屏。解决方法是删除 <code>C:\Program Files\obs-studio\obs-plugins\64bit</code> 目录内的 <code>CalabashDanmuPlugin.dll</code>、<code>CalabashWinCapture.dll</code>、<code>ObssDanmuInfo.dll</code>，重启 OBS 即可恢复，但下次使用弹幕助手时，这三个文件会自动安装，黑屏问题复现，只能重新删除指定文件。</p>
-<p>小葫芦直播助手集成了 OBS 和弹幕助手的功能，但为了直播的扩展性，仍然建议从 OBS 入门。</p>
-]]></content:encoded>
+      <title>Git配置</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/06-Git%E9%85%8D%E7%BD%AE.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/06-Git%E9%85%8D%E7%BD%AE.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">Git配置</source>
+      <description>Git配置 File -&amp;gt; New Projects Setup -&amp;gt; Settings for New Projects... 此idea版本好像会自动识别git配置，感觉有点厉害，无需自己单独配置了^_^ idea-git.png</description>
+      <category>idea</category>
+      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
+      <content:encoded><![CDATA[<h3> Git配置</h3>
+<p><code>File</code> -&gt; <code>New Projects Setup</code> -&gt; <code>Settings for New Projects...</code></p>
+<blockquote>
+<p>此idea版本好像会自动识别git配置，感觉有点厉害，无需自己单独配置了<code>^_^</code></p>
+</blockquote>
+<figure><img src="/images/idea/idea-git.png" alt="idea-git.png" tabindex="0" loading="lazy"><figcaption>idea-git.png</figcaption></figure>
+<p>设置常用提交窗口</p>
+<figure><img src="/images/idea/idea-git-switch-dialog-1.png" alt="idea-git-switch-dialog-1.png" tabindex="0" loading="lazy"><figcaption>idea-git-switch-dialog-1.png</figcaption></figure>
+<figure><img src="/images/idea/idea-git-switch-dialog-2.png" alt="idea-git-switch-dialog-2.png" tabindex="0" loading="lazy"><figcaption>idea-git-switch-dialog-2.png</figcaption></figure>
+<h3> 解决git提交代码每次输入帐号密码问题</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/images/idea/idea-git.png" type="image/png"/>
     </item>
     <item>
-      <title>直播入门攻略五 | 平台篇：主流直播平台介绍</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/5_live_platforms.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/5_live_platforms.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">直播入门攻略五 | 平台篇：主流直播平台介绍</source>
-      <description>主流直播平台有淘宝、京东、抖音、快手、视频号、哔哩哔哩、小红书、微博直播、斗鱼、虎牙和 YouTube。接下来，我将逐一介绍如何使用 PC 端的 OBS 在这些平台上进行直播。 淘宝直播 下载淘宝直播客户端，打开后点击「我要开播」，进入直播间界面。 淘宝直播设置 在左侧点击「添加元素」&amp;gt;「摄像头」，选择「OBS-Camera」，即可同步 OBS 直播画面。淘宝直播客户端也是基于 OBS，但不支持推流直播，只能通过虚拟摄像头同步画面。</description>
-      <category>工具</category>
-      <pubDate>Fri, 28 Jul 2023 03:06:23 GMT</pubDate>
-      <content:encoded><![CDATA[<p>主流直播平台有淘宝、京东、抖音、快手、视频号、哔哩哔哩、小红书、微博直播、斗鱼、虎牙和 YouTube。接下来，我将逐一介绍如何使用 PC 端的 OBS 在这些平台上进行直播。</p>
-<h2> 淘宝直播</h2>
-<ol>
-<li>
-<p>下载<a href="https://market.m.taobao.com/app/mtb/live-portal/download/index.html" target="_blank" rel="noopener noreferrer">淘宝直播客户端</a>，打开后点击「我要开播」，进入直播间界面。</p>
-<figure><img src="https://img.newzone.top/2022-06-29-22-23-26.png" alt="" tabindex="0" loading="lazy"><figcaption>淘宝直播设置</figcaption></figure>
-</li>
-<li>
-<p>在左侧点击「添加元素」&gt;「摄像头」，选择「OBS-Camera」，即可同步 OBS 直播画面。淘宝直播客户端也是基于 OBS，但不支持推流直播，只能通过虚拟摄像头同步画面。</p>
-</li>
-</ol>
-<p>除了客户端，还可以通过<a href="https://liveplatform.taobao.com/restful/index/home/" target="_blank" rel="noopener noreferrer">直播中控台</a>来设置淘宝直播间。</p>
-<h2> 抖音直播</h2>
-<ol>
-<li>
-<p>下载<a href="https://www.douyin.com/falcon/webcast_openpc/pages/streamingtool_download/index.html" target="_blank" rel="noopener noreferrer">直播伴侣电脑端</a>，它可以适配西瓜视频、抖音、抖音火山版的直播。</p>
-</li>
-<li>
-<p>在左侧点击「添加元素」&gt;「采集」，选择「OBS-Camera」(摄像头较多时，可下滑选择)，设置采集自定义音频设备为「OBS-Audio」，声音改为单声道。</p>
-<figure><img src="https://img.newzone.top/2022-06-29-23-59-02.png" alt="" tabindex="0" loading="lazy"><figcaption>抖音直播设置</figcaption></figure>
-</li>
-</ol>
-<p>以上为抖音新手的电脑直播步骤，如果你的抖音粉丝在一万以上，可以使用 <a href="http://streamingtool.douyin.com/docs/guide/96319/" target="_blank" rel="noopener noreferrer">OBS 模式推流</a>。</p>
-<h2> 快手直播</h2>
-<p>快手直播无需 PC 客户端，可在<a href="https://studio.kuaishou.com/profile" target="_blank" rel="noopener noreferrer">快手云直播</a>页面配置直播间，支持 OBS 模式推流直播。若直播断流超过 2 分钟或直播超过 7 天，则会自动下播。</p>
-<h2> 视频号直播</h2>
-<p>要使用电脑直播视频号，需要先完成<a href="https://channels.weixin.qq.com/platform/live/apply" target="_blank" rel="noopener noreferrer">视频号认证</a>。</p>
-<p>视频号认证最重要的一环是<strong>有效关注数 1000 人以上</strong>，可疑和外挂用户都不包含在有效人数内。达到 1000 有效粉丝后，就可以在视频号助手网页端发起直播推流了。</p>
-<h2> B 站直播</h2>
-<p>哔哩哔哩可以在<a href="https://link.bilibili.com/p/eden/download#/web" target="_blank" rel="noopener noreferrer">直播姬客户端</a>或<a href="https://link.bilibili.com/p/center/index#/my-room/start-live" target="_blank" rel="noopener noreferrer">B 站直播间网页端</a>上进行在线直播。直播封面必须包含图像，不支持纯文本封面。</p>
-<p>如果你主做 B 站直播，可以试试哔哩哔哩直播机器人<a href="https://github.com/iwxyi/Bilibili-MagicalDanmaku" target="_blank" rel="noopener noreferrer">神奇弹幕</a>，它集成了弹幕姬、答谢姬、点歌姬、回复姬和工作流 (workflow)，支持弹幕聊天、观众互动、自动点歌、数据统计、私信处理等功能。这个应用看起来很有趣，我还没有使用过。</p>
-<h2> 知乎直播</h2>
-<p>在<a href="https://www.zhihu.com/creator/streaming/push" target="_blank" rel="noopener noreferrer">知乎推流直播</a>页面开启直播后，就可以使用知乎的电脑直播。</p>
-<p>知乎直播注意：</p>
-<ul>
-<li>推流直播不能与第三方连接谈话；手机直播不支持绿幕抠图。</li>
-<li>当你在电脑直播时，用手机进入知乎客户端，会提示「是否继续直播」，选择「继续」可进入直播界面与观众互动，选「忽略」则停止直播。</li>
-<li>如果直播时间超过一个月，小葫芦直播码会失效，无法继续使用小葫芦直播助手和弹幕助手。</li>
-</ul>
-<h2> 小红书直播</h2>
-<p>小红书使用<a href="http://www.xiaohongshu.com/zhibo/robs" target="_blank" rel="noopener noreferrer">直播助手</a>来设置推流，可以查看<a href="ttps://fe-video-qc.xhscdn.com/fe-platform/f03ae58e50e6d53580fa16a58e9dffbbbabbb5f0.pdf">官方文档</a> 了解开播步骤。</p>
-<p>当我登录直播助手时，提示「暂无直播权限，请联系运营及客服开通」，但手机却可以直播，这说明提示中的直播权限专指电脑端直播。因此，我在应用中提交了问题，但一直未收到客服回复。</p>
-<h2> 微博直播</h2>
-<p>微博直播需先完成实名认证，然后在<a href="https://weibo.com/manage/frame?furl=https%3A%2F%2Fweibo.com%2Fl%2Fwblive%2Fadmin%2Fhome%2Fauthentication" target="_blank" rel="noopener noreferrer">微博管理中心</a>创建直播。详细的开播步骤，可以参考官方的<a href="https://weibo.com/l/wblive/act/k2mw80kz3kw0" target="_blank" rel="noopener noreferrer">微博 PC 开播教程</a>。</p>
-<h2> Youtube 直播</h2>
-<p>如果您在过去 90 天内没有进行 YouTube 直播，平台会要求验证您的频道。首次启用直播功能可能需要最长等待 24 小时。</p>
-<ol>
-<li>打开 <a href="http://youtube.com/livestreaming" target="_blank" rel="noopener noreferrer">YouTube 直播控制室</a>。</li>
-<li>点击直播标签页或为新直播安排时间。</li>
-<li>从直播控制室复制直播网址和直播码，然后将其粘贴到编码器中。</li>
-</ol>
+      <title>JDK配置</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/07-JDK%E9%85%8D%E7%BD%AE.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/07-JDK%E9%85%8D%E7%BD%AE.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">JDK配置</source>
+      <description>JDK配置 File -&amp;gt; New Projects Setup -&amp;gt; Structure... idea-set-new-projects-structure.png</description>
+      <category>idea</category>
+      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
+      <content:encoded><![CDATA[<h3> JDK配置</h3>
+<p><code>File</code> -&gt; <code>New Projects Setup</code> -&gt; <code>Structure...</code></p>
+<figure><img src="/images/idea/idea-set-new-projects-structure.png" alt="idea-set-new-projects-structure.png" tabindex="0" loading="lazy"><figcaption>idea-set-new-projects-structure.png</figcaption></figure>
+<figure><img src="/images/idea/idea-jdk-1.png" alt="idea-jdk-2.png" tabindex="0" loading="lazy"><figcaption>idea-jdk-2.png</figcaption></figure>
+<figure><img src="/images/idea/idea-jdk-2.png" alt="idea-jdk-2.png" tabindex="0" loading="lazy"><figcaption>idea-jdk-2.png</figcaption></figure>
 ]]></content:encoded>
+      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/images/idea/idea-set-new-projects-structure.png" type="image/png"/>
     </item>
     <item>
-      <title>直播入门攻略六 | 技巧篇：直播定位与策划</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/6_live_positioning.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/apps/livestreaming/6_live_positioning.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">直播入门攻略六 | 技巧篇：直播定位与策划</source>
-      <description>直播过几次了，但是你的直播间总是没有人看，偶尔来了人也不知道说什么。作为直播新手，遇到这种情况是很正常的。建议按照本文的章节，逐一比对，对你的直播进行定位和策划。 直播定位 开设直播前，从你的兴趣、能力和直播目的出发，确定直播定位。 我是谁：我的职业/身份是什么。 面向谁：目标用户画像：性别、年龄、兴趣、收入、消费能力、性格特征等。 我能提供什么：核心竞争力：陪伴？专业知识？丰富经验？渠道资源？ 解决目标用户什么问题：排遣寂寞？选购答疑？ 定位完成后，把自己放在目标观众角度进行换位思考，调整直播定位。</description>
-      <category>工具</category>
-      <pubDate>Fri, 28 Jul 2023 03:06:23 GMT</pubDate>
-      <content:encoded><![CDATA[<p>直播过几次了，但是你的直播间总是没有人看，偶尔来了人也不知道说什么。作为直播新手，遇到这种情况是很正常的。建议按照本文的章节，逐一比对，对你的直播进行定位和策划。</p>
-<h2> 直播定位</h2>
-<p>开设直播前，从你的兴趣、能力和直播目的出发，确定直播定位。</p>
-<ul>
-<li>我是谁：我的职业/身份是什么。</li>
-<li>面向谁：目标用户画像：性别、年龄、兴趣、收入、消费能力、性格特征等。</li>
-<li>我能提供什么：核心竞争力：陪伴？专业知识？丰富经验？渠道资源？</li>
-<li>解决目标用户什么问题：排遣寂寞？选购答疑？</li>
-</ul>
-<p>定位完成后，把自己放在目标观众角度进行换位思考，调整直播定位。</p>
-<ul>
-<li>你喜欢哪类型的直播？喜欢谁的直播？为什么？每个主播至少列出 3 个吸引你的点。</li>
-<li>你不喜欢哪种直播？为什么？</li>
-<li>如果是你做直播，你希望是什么样的？你的底线是什么？有什么顾虑？顾虑和目标比起来，孰轻孰重？</li>
-</ul>
-<p>如果前期定位依然不清，可以<strong>观察头部主播、找到对标主播</strong>，模仿对标主播的直播间。</p>
-<h2> 开播时间</h2>
-<p><strong>保持长时间和持续开播，稳定开播频次与时间段</strong>。</p>
-<p>例如，每周固定开播两到三场，每次直播不低于 30 分钟。直播频率和直播时长是做好直播的基础，如果开播时长和开播频率不稳定，系统就无法准确地进行推荐。</p>
-<p>新人直播有流量扶持，即使初期没有观众也要坚持开播。尽量选择白天等冷门时间段，竞争相对较小。</p>
-<p>娱乐直播保持 2.5 小时以上，电商直播保持 3.5 小时以上才会有官方稳定推流。</p>
-<h2> 直播策划</h2>
-<h3> 选题</h3>
-<p>直播选题决定直播前期自然流量的多少。</p>
-<p>新手直播流量不高时，主题尽量搭上最新热点，<strong>抓住热点，立即开始，利用现有内容，抢占黄金流量时间</strong>。但你的直播内容一定要与热点相关，否则牛头不对马嘴，自然流量也不会留下来。</p>
-<p>选定主题后，<strong>准备 15~20 分钟的脚本，在直播中循环使用</strong>。即使直播间没人，也不要停止说话，否则进入的自然流量会变少。</p>
-<h3> 标题</h3>
-<p>直播标题控制在 8 个字，可以通过关键词搜索站内热门，从中参考直播标题。直播标题没有搜索权重，所以不需要堆砌关键词，只要能清楚地表达直播间主题就可以了。</p>
-<p>标题要素：</p>
-<ul>
-<li>突出主播特征，如：人物特质、性格。</li>
-<li>突出内容，如：才艺展示、音乐主题、户外和其他类别。</li>
-<li>突出玩法吸引，比如：各种秒杀活动、免费赠送等。</li>
-<li>突出实力，清楚地表现出你的能力，当然做解说也可以。</li>
-</ul>
-<h3> 预告</h3>
-<p>开播前，一定要先发直播预告或短视频，以便让更多观众进入直播间。预告发布最好在开播前两小时完成。</p>
-<p>在开播页面，请提前设置好<strong>封面标题</strong>并勾选<strong>定位</strong>。</p>
-<p>有特色的封面可以提升观众对直播间的兴趣，建议使用本人或与内容相关的图片作为封面。如果不知道如何设置好封面标题，可以参考其他观众较多的直播间。</p>
-<p>打开直播定位，可以让更多的同城观众看到你的直播间，对直播间的流量有非常大的帮助。</p>
-<h3> 环境</h3>
-<p>灯光和环境声音决定了你的直播效果。</p>
-<p>直播间灯光要亮，露脸主播可以将灯光打在脸部的右前方 45 度，这能提升你的颜值。</p>
-<p>直播前，尽量关闭门窗和不必要的电器，降低直播间环境噪音，以避免干扰直播效果。</p>
-<h2> 直播互动</h2>
-<p>开场前 10~15 分钟是暖场阶段，你可以先和观众互动，等人多了再正式开始主题。</p>
-<p>有新观众进入直播间时，要主动欢迎他们。有意识地引导用户关注、互动，呼吁点亮粉丝灯牌，及时感谢礼物。</p>
-<p>对于用户评论，要<strong>先读出弹幕</strong>，然后做出应答。粉丝提出意见对我们是有帮助的，一定要虚心接受并表示感谢。</p>
-<p>如果有团队配合，可以安排管理员维持直播间的秩序并活跃气氛，参与直播平台的官方活动，适当购买直播道具（宠粉红包福袋）。</p>
-<p>下播后，进行数据复盘，调整直播间的标题、封面和背景。</p>
-<h2> 开播锻炼</h2>
-<p>开播前把脸部肌肉活动开。嘴张到最大，舌顶上颚 60 秒；嘴张到最大，尽量伸舌 30 秒。说话时，让嘴唇用力。</p>
-<h2> 总结</h2>
-<p>经过两年的直播，我深知直播的硬件、软件和技巧只是锦上添花。若要体验直播，不想深入研究，只需拿出手机开播即可。开始直播时，可能会有很多疑问和顾虑，效果也不一定很好。但只有勇敢尝试新事物，不断开拓，我们的人生才会有更多可能性。</p>
+      <title>Maven配置</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/08-Maven%E9%85%8D%E7%BD%AE.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/08-Maven%E9%85%8D%E7%BD%AE.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">Maven配置</source>
+      <description>Maven配置 如果需要idea新开的所有项目配置都生效，操作 File -&amp;gt; New Projects Setup -&amp;gt; Settings for New Projects... idea-maven.png</description>
+      <category>idea</category>
+      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
+      <content:encoded><![CDATA[<h3> Maven配置</h3>
+<blockquote>
+<p>如果需要idea新开的所有项目配置都生效，操作 <code>File</code> -&gt; <code>New Projects Setup</code> -&gt; <code>Settings for New Projects...</code><br>
+<img src="/images/idea/idea-set-new-projects.png" alt="idea-set-new-projects.png" loading="lazy"></p>
+</blockquote>
+<figure><img src="/images/idea/idea-maven.png" alt="idea-maven.png" tabindex="0" loading="lazy"><figcaption>idea-maven.png</figcaption></figure>
 ]]></content:encoded>
+      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/images/idea/idea-set-new-projects.png" type="image/png"/>
     </item>
   </channel>
 </rss>
