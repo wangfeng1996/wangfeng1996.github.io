@@ -11,12 +11,12 @@ export default hopeTheme({
     // hostname: "https://newzone.top",
     hostname: "https://theme-hope.vuejs.press/zh/config/theme/layout.html",
 
-    iconAssets: ["iconfont", "//at.alicdn.com/t/c/font_4269063_ip09md2tu59.css"],
+    iconAssets: ["iconfont", "//at.alicdn.com/t/c/font_4269063_2ldmigq8hyv.css"],
 
     iconPrefix: "iconfont icon-",
     author: "wangfeng",
 
-    logo: "/logo.svg",
+   logo: "/logo.png",
 
     // 是否全局启用路径导航
     breadcrumb: false,
@@ -57,7 +57,7 @@ export default hopeTheme({
     // sidebarSorter: ['readme', 'order', 'title'],
 
     // footer: "默认页脚",
-    // displayFooter: true,
+    displayFooter: true,
 
     // 页面布局 Frontmatter 配置：https://theme-hope.vuejs.press/zh/config/frontmatter/layout.html#pageinfo
     pageInfo: ["Category", "Tag", "Word", "ReadingTime"],
@@ -109,6 +109,8 @@ export default hopeTheme({
             tasklist: true,
             sub: true, // 上下角标
             sup: true,
+            // 启用幻灯片
+            presentation:true,
             // tabs: true, // 选项卡
             // vpre: true,
             // vuePlayground: true, // Vue 交互演示

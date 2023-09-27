@@ -31,6 +31,7 @@ export default sidebar([
     // 读书笔记架构更换到 docsify，不能使用相对链接
     // {text: "读书笔记", icon: "read", link: "https://newzone.top/reading/"},
     // 指定显示页面
+    "home",
     {
         text: " java",
         icon: "java",
@@ -90,35 +91,29 @@ export default sidebar([
         children: "structure",
     },
     {
-        text: "🚀 代码学习",
-        icon: "",
+        text: "代码学习",
+        icon: "code",
         prefix: "/code/",
         link: "",
         collapsible: true,
         children: [
-            // "README.md",
-            // {
-            //     text: "Basic",
-            //     icon: "emmet",
-            //     collapsible: true,
-            //     children: ["Markdown.md", "Electron.md", "AutoHotkey.md", "Regex.md"],
-            // },
-            // {
-            //     text: "FrondEnd",
-            //     icon: "app",
-            //     collapsible: true,
-            //     children: ["Vue.md", "HTML.md", "JavaScript.md", "Python.md"],
-            // },
+            {
+                text: "算法",
+                icon: "sf",
+                collapsible: true,
+                children: ["algorithm.md"],
+            }
         ],
     },
     {
-        text: "Linux 服务",
-        icon: "linux",
+        text: "操作系统",
+        icon: "caozuoxitong",
         prefix: "/services/",
         link: "",
         collapsible: true,
         children: "structure",
     }
+
     // {
     //     text: "🪟 系统问题",
     //     icon: "",
