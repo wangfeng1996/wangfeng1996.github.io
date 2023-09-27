@@ -6,14 +6,77 @@
     <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/</link>
     <description>业精于勤荒于嬉，行成于思毁于随</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 26 Sep 2023 09:36:35 GMT</pubDate>
-    <lastBuildDate>Tue, 26 Sep 2023 09:36:35 GMT</lastBuildDate>
+    <pubDate>Wed, 27 Sep 2023 08:05:39 GMT</pubDate>
+    <lastBuildDate>Wed, 27 Sep 2023 08:05:39 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Linux</category>
+    <category>macOS</category>
+    <category>算法</category>
     <category>shell</category>
-    <category>linux</category>
     <category>homebrew</category>
     <category>idea</category>
+    <item>
+      <title>Linux</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/services/Linux.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/services/Linux.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">Linux</source>
+      <description>1、关机、重启</description>
+      <category>Linux</category>
+      <pubDate>Wed, 27 Sep 2023 07:57:22 GMT</pubDate>
+      <content:encoded><![CDATA[<h3> 1、关机、重启</h3>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>macOS</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/services/Macos.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/services/Macos.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">macOS</source>
+      <description>Macos macos鼠标卡顿问题 # 这个命令会查看当前鼠标移动速度 defaults read -g com.apple.mouse.scaling # 这个命令是设置默认鼠标移动速度我设置的是5 defaults write -g com.apple.mouse.scaling 5</description>
+      <category>macOS</category>
+      <pubDate>Wed, 27 Sep 2023 07:57:22 GMT</pubDate>
+      <content:encoded><![CDATA[<h2> Macos</h2>
+<h3> macos鼠标卡顿问题</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 刷新缓存</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 环境变量</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 基本命令</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>学习</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/home.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/home.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">学习</source>
+      <pubDate>Wed, 27 Sep 2023 07:57:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>算法</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/code/algorithm.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/code/algorithm.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">算法</source>
+      <description>判断重复元素 在一个长度为 n 的数组 nums 里的所有数字都在 0～n-1 的范围内。 数组中某些数字是重复的，但不知道有几个数字重复了，也不知道每个数字重复了几次。请找出数组中任意一个重复的数字。 public class Demo01 { public static void main(String[] args) { // 定义一个数组 int[] arr = {1, 2, 4, 5, 6, 3, 5, 6, 3, 4}; ArrayList&amp;lt;Integer&amp;gt; list = compare(arr); System.out.println(list); } public static ArrayList&amp;lt;Integer&amp;gt; compare(int[] arr) { HashMap&amp;lt;Integer, Integer&amp;gt; hashMap = new HashMap&amp;lt;Integer, Integer&amp;gt;(arr.length); // 定义一个map集合 for (int i : arr) { // 首先判断map集合中进行的key是否为null，如果不为nul的话进行添加的操作 if (hashMap.get(i) != null) { hashMap.put(i, hashMap.get(i) + 1); } else { // 如果key的值为null的话，将value的值置为1 hashMap.put(i, 1); } } ArrayList&amp;lt;Integer&amp;gt; list = new ArrayList&amp;lt;&amp;gt;(); // 遍历map，将value值大于1的key取出 Set&amp;lt;Map.Entry&amp;lt;Integer, Integer&amp;gt;&amp;gt; entries = hashMap.entrySet(); for (Map.Entry&amp;lt;Integer, Integer&amp;gt; entry : entries) { if (entry.getValue() &amp;gt; 1) { Integer key = entry.getKey(); list.add(key); } } return list; } }</description>
+      <category>算法</category>
+      <pubDate>Wed, 27 Sep 2023 07:56:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h3> 判断重复元素</h3>
+<blockquote>
+<p>在一个长度为 n 的数组 nums 里的所有数字都在 0～n-1 的范围内。<br>
+数组中某些数字是重复的，但不知道有几个数字重复了，也不知道每个数字重复了几次。请找出数组中任意一个重复的数字。</p>
+</blockquote>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 快速排序</h3>
+<blockquote>
+<p>快速排序由于其时间复杂度优于大部分的排序算法，因而命名为快速排序。快速排序实现的核心思想就是在待排序序列中选择一个基准值，然后将小于基准值的数字放在基准值左边，大于基准值的数字放在基准值右边，然后左右两边递归排序，整个排序过程中最关键部分就是寻找基准值在待排序序列中的索引位置。</p>
+</blockquote>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 冒泡排序</h3>
+<blockquote>
+<p>冒泡排序是一种计算机科学领域的较简单的排序算法，它重复地走访过要排序的元素列，依次比较两个相邻的元素，如果顺序错误就把他们交换过来，走访元素的工作是重复地进行直到没有相邻元素需要交换，也就是说该元素列已经排序完成。</p>
+</blockquote>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 二分法</h3>
+<blockquote>
+<p>即一分为二的的方法。对于在区间[a,b]上连续不断且满足f(a)*f(b)&lt;0的函数y=f(x),通过不断地把函数f(x)的零点所在区间二等分，使区间两个端点逐步逼近零点，进而得到零点的近似值的方法。</p>
+</blockquote>
+<p><code>tip:</code> 说人话：把答案所在的区间逐渐缩小，直到区间内只有答案。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
     <item>
       <title>自动化部署git项目</title>
       <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/deploy/%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE.html</link>
@@ -28,17 +91,6 @@
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code>tip:</code> 如果不添加这个脚本，直接在控制台输入 bash <a href="http://deploy.sh" target="_blank" rel="noopener noreferrer">deploy.sh</a> 即可</p>
 <h2> 运行发布命令</h2>
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>linux</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/services/01-linux.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/services/01-linux.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">linux</source>
-      <description>1、关机、重启</description>
-      <category>linux</category>
-      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
-      <content:encoded><![CDATA[<h3> 1、关机、重启</h3>
-]]></content:encoded>
     </item>
     <item>
       <title>Homebrew</title>
@@ -996,60 +1048,6 @@
 </table>
 ]]></content:encoded>
       <enclosure url="https://img-blog.csdnimg.cn/20201027175009455.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzMzNDY0MDcz,size_16,color_FFFFFF,t_70" type="image/"/>
-    </item>
-    <item>
-      <title>Git配置</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/06-Git%E9%85%8D%E7%BD%AE.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/06-Git%E9%85%8D%E7%BD%AE.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">Git配置</source>
-      <description>Git配置 File -&amp;gt; New Projects Setup -&amp;gt; Settings for New Projects... 此idea版本好像会自动识别git配置，感觉有点厉害，无需自己单独配置了^_^ idea-git.png</description>
-      <category>idea</category>
-      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
-      <content:encoded><![CDATA[<h3> Git配置</h3>
-<p><code>File</code> -&gt; <code>New Projects Setup</code> -&gt; <code>Settings for New Projects...</code></p>
-<blockquote>
-<p>此idea版本好像会自动识别git配置，感觉有点厉害，无需自己单独配置了<code>^_^</code></p>
-</blockquote>
-<figure><img src="/images/idea/idea-git.png" alt="idea-git.png" tabindex="0" loading="lazy"><figcaption>idea-git.png</figcaption></figure>
-<p>设置常用提交窗口</p>
-<figure><img src="/images/idea/idea-git-switch-dialog-1.png" alt="idea-git-switch-dialog-1.png" tabindex="0" loading="lazy"><figcaption>idea-git-switch-dialog-1.png</figcaption></figure>
-<figure><img src="/images/idea/idea-git-switch-dialog-2.png" alt="idea-git-switch-dialog-2.png" tabindex="0" loading="lazy"><figcaption>idea-git-switch-dialog-2.png</figcaption></figure>
-<h3> 解决git提交代码每次输入帐号密码问题</h3>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/images/idea/idea-git.png" type="image/png"/>
-    </item>
-    <item>
-      <title>JDK配置</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/07-JDK%E9%85%8D%E7%BD%AE.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/07-JDK%E9%85%8D%E7%BD%AE.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">JDK配置</source>
-      <description>JDK配置 File -&amp;gt; New Projects Setup -&amp;gt; Structure... idea-set-new-projects-structure.png</description>
-      <category>idea</category>
-      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
-      <content:encoded><![CDATA[<h3> JDK配置</h3>
-<p><code>File</code> -&gt; <code>New Projects Setup</code> -&gt; <code>Structure...</code></p>
-<figure><img src="/images/idea/idea-set-new-projects-structure.png" alt="idea-set-new-projects-structure.png" tabindex="0" loading="lazy"><figcaption>idea-set-new-projects-structure.png</figcaption></figure>
-<figure><img src="/images/idea/idea-jdk-1.png" alt="idea-jdk-2.png" tabindex="0" loading="lazy"><figcaption>idea-jdk-2.png</figcaption></figure>
-<figure><img src="/images/idea/idea-jdk-2.png" alt="idea-jdk-2.png" tabindex="0" loading="lazy"><figcaption>idea-jdk-2.png</figcaption></figure>
-]]></content:encoded>
-      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/images/idea/idea-set-new-projects-structure.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Maven配置</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/08-Maven%E9%85%8D%E7%BD%AE.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/08-Maven%E9%85%8D%E7%BD%AE.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">Maven配置</source>
-      <description>Maven配置 如果需要idea新开的所有项目配置都生效，操作 File -&amp;gt; New Projects Setup -&amp;gt; Settings for New Projects... idea-maven.png</description>
-      <category>idea</category>
-      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
-      <content:encoded><![CDATA[<h3> Maven配置</h3>
-<blockquote>
-<p>如果需要idea新开的所有项目配置都生效，操作 <code>File</code> -&gt; <code>New Projects Setup</code> -&gt; <code>Settings for New Projects...</code><br>
-<img src="/images/idea/idea-set-new-projects.png" alt="idea-set-new-projects.png" loading="lazy"></p>
-</blockquote>
-<figure><img src="/images/idea/idea-maven.png" alt="idea-maven.png" tabindex="0" loading="lazy"><figcaption>idea-maven.png</figcaption></figure>
-]]></content:encoded>
-      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/images/idea/idea-set-new-projects.png" type="image/png"/>
     </item>
   </channel>
 </rss>
