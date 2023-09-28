@@ -6,8 +6,8 @@
     <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/</link>
     <description>业精于勤荒于嬉，行成于思毁于随</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 28 Sep 2023 02:10:50 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Sep 2023 02:10:50 GMT</lastBuildDate>
+    <pubDate>Thu, 28 Sep 2023 03:59:36 GMT</pubDate>
+    <lastBuildDate>Thu, 28 Sep 2023 03:59:36 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Linux</category>
@@ -174,8 +174,10 @@
 <p>在命令行中，你可以直接使用 <code>brew search [关键词]</code> 来进行搜索<br>
 <img src="/images/homebrew/homebrew-01.png" alt="关键字搜索" loading="lazy"></p>
 
-&gt; 命令行搜索软件 输入你想要的关键词，来搜索即可得到结果。 
-&gt; 在搜索时应当遵循宁可少字，不能错字的原则来搜索。
+<blockquote>
+<p>命令行搜索软件 输入你想要的关键词，来搜索即可得到结果。<br>
+在搜索时应当遵循宁可少字，不能错字的原则来搜索。</p>
+</blockquote>
 <h4> 2. 使用网页搜索</h4>
 <p>除了使用命令行搜索以外，你可以使用网页端的搜索工具来辅助你进行搜索。在 Homebrew 的官网，你可以找到 formulae 的链接，或者直接访问 <a href="https://links.jianshu.com/go?to=https%3A%2F%2Fformulae.brew.sh%2F" target="_blank" rel="noopener noreferrer">https://formulae.brew.sh/</a> 来进行搜索。你只需要在界面的输入框中输入你要搜索的命令，然后就会出现对应的候选命令<br>
 <img src="/images/homebrew/homebrew-03.png" alt="img" loading="lazy"></p>
