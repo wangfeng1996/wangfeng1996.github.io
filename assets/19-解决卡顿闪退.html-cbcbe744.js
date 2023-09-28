@@ -1,3 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as a,a as s}from"./app-785459a3.js";const c={},o=s(`<h3 id="jvm参数设置" tabindex="-1"><a class="header-anchor" href="#jvm参数设置" aria-hidden="true">#</a> jvm参数设置</h3><p><code>Help</code> -&gt; <code>Edit Custom VM Options...</code></p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>-Xms1024m
--Xmx1024m
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p>-Xms和-Xms设置一样大，可以使IDEA启动时初始堆内存就直接到最大，以免中途扩容影响启动速度。</p></blockquote>`,4),d=[o];function n(i,r){return t(),a("div",null,d)}const m=e(c,[["render",n],["__file","19-解决卡顿闪退.html.vue"]]);export{m as default};
