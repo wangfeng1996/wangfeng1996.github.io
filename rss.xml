@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xsl"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml" rel="self" type="application/rss+xml"/>
     <title>有梦想的鱼-开源博客</title>
-    <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/</link>
+    <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/</link>
     <description>业精于勤荒于嬉，行成于思毁于随</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 28 Sep 2023 09:23:31 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Sep 2023 09:23:31 GMT</lastBuildDate>
+    <pubDate>Thu, 28 Sep 2023 09:31:41 GMT</pubDate>
+    <lastBuildDate>Thu, 28 Sep 2023 09:31:41 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Java</category>
@@ -20,9 +20,9 @@
     <category>idea</category>
     <item>
       <title>Java 21 新特性概览</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/java/new-features/java21.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/java/new-features/java21.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">Java 21 新特性概览</source>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/java/new-features/java21.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/java/new-features/java21.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">Java 21 新特性概览</source>
       <description>| 430: | String Templates (Preview)| 什么是 String Templates? String Templates 是 Java 15 中引入的一个新特性，它允许我们在字符串中使用占位符来动态替换变量的值。它提供了一种更简洁、更直观的方式来构建字符串，而不需要使用传统的字符串拼接或格式化方法。 为什么需要 String Templates? 在传统的 Java 中，我们通常使用字符串拼接或格式化方法来构建动态字符串。这种方式需要手动处理变量的值，并且容易出错。而且，当字符串中包含大量变量时，代码会变得冗长且难以维护。 String Templates 的引入解决了这个问题，它提供了一种更简洁、更易读的方式来构建动态字符串。通过使用占位符，我们可以将变量的值直接嵌入到字符串中，而不需要手动处理。 String Templates 的实现原理? String Templates 的实现原理是通过在字符串中使用占位符{} 解析为一个特殊的表达式，并将其转换为对应的变量值。这个过程是在编译时完成的，所以在运行时不会有额外的性能开销。 String Templates 的优点</description>
       <category>Java</category>
       <pubDate>Thu, 28 Sep 2023 09:16:36 GMT</pubDate>
@@ -735,9 +735,9 @@ Schedule</p>
     </item>
     <item>
       <title>内网穿透-ngrok</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/network/ngrok.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/network/ngrok.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">内网穿透-ngrok</source>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/develop/network/ngrok.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/develop/network/ngrok.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">内网穿透-ngrok</source>
       <description>什么叫做内网穿透 首先，我们生活中的网络分为内网和外网 内网: 内网就是我们自己的网络环境，就你自己能够访问的，比如说你自己的的本地: localhost 外网: 外网就不言而喻了，你看网页，视频等这些网址都是外网 那么什么叫做内网穿透呢，简单点来说，就是通过访问到外网的地址，然后穿透到你的内网地址 内网穿透又叫端口映射，用一句最简单的话来讲就是：将你的计算机所连接的私有网络映射到公网上，别人通过你给的域名或ip即可访问你本地的服务。 ngrok简介</description>
       <category>内网穿透</category>
       <pubDate>Thu, 28 Sep 2023 07:37:08 GMT</pubDate>
@@ -824,9 +824,9 @@ Schedule</p>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/services/Linux.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/services/Linux.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">Linux</source>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/services/Linux.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/services/Linux.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">Linux</source>
       <description>1、关机、重启</description>
       <category>Linux</category>
       <pubDate>Wed, 27 Sep 2023 07:57:22 GMT</pubDate>
@@ -835,9 +835,9 @@ Schedule</p>
     </item>
     <item>
       <title>macOS</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/services/Macos.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/services/Macos.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">macOS</source>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/services/Macos.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/services/Macos.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">macOS</source>
       <description>Macos macos鼠标卡顿问题 # 这个命令会查看当前鼠标移动速度 defaults read -g com.apple.mouse.scaling # 这个命令是设置默认鼠标移动速度我设置的是5 defaults write -g com.apple.mouse.scaling 5</description>
       <category>macOS</category>
       <pubDate>Wed, 27 Sep 2023 07:57:22 GMT</pubDate>
@@ -850,16 +850,16 @@ Schedule</p>
     </item>
     <item>
       <title>学习</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/home.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/home.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">学习</source>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/home.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/home.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">学习</source>
       <pubDate>Wed, 27 Sep 2023 07:57:06 GMT</pubDate>
     </item>
     <item>
       <title>算法</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/code/algorithm.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/code/algorithm.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">算法</source>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/code/algorithm.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/code/algorithm.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">算法</source>
       <description>判断重复元素 在一个长度为 n 的数组 nums 里的所有数字都在 0～n-1 的范围内。 数组中某些数字是重复的，但不知道有几个数字重复了，也不知道每个数字重复了几次。请找出数组中任意一个重复的数字。 public class Demo01 { public static void main(String[] args) { // 定义一个数组 int[] arr = {1, 2, 4, 5, 6, 3, 5, 6, 3, 4}; ArrayList&amp;lt;Integer&amp;gt; list = compare(arr); System.out.println(list); } public static ArrayList&amp;lt;Integer&amp;gt; compare(int[] arr) { HashMap&amp;lt;Integer, Integer&amp;gt; hashMap = new HashMap&amp;lt;Integer, Integer&amp;gt;(arr.length); // 定义一个map集合 for (int i : arr) { // 首先判断map集合中进行的key是否为null，如果不为nul的话进行添加的操作 if (hashMap.get(i) != null) { hashMap.put(i, hashMap.get(i) + 1); } else { // 如果key的值为null的话，将value的值置为1 hashMap.put(i, 1); } } ArrayList&amp;lt;Integer&amp;gt; list = new ArrayList&amp;lt;&amp;gt;(); // 遍历map，将value值大于1的key取出 Set&amp;lt;Map.Entry&amp;lt;Integer, Integer&amp;gt;&amp;gt; entries = hashMap.entrySet(); for (Map.Entry&amp;lt;Integer, Integer&amp;gt; entry : entries) { if (entry.getValue() &amp;gt; 1) { Integer key = entry.getKey(); list.add(key); } } return list; } }</description>
       <category>算法</category>
       <pubDate>Wed, 27 Sep 2023 07:56:49 GMT</pubDate>
@@ -885,9 +885,9 @@ Schedule</p>
     </item>
     <item>
       <title>自动化部署git项目</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/deploy/%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/deploy/%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">自动化部署git项目</source>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/deploy/%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/deploy/%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">自动化部署git项目</source>
       <description>自动化部署git项目 创建部署脚本 #!/usr/bin/env sh # 确保脚本抛出遇到的错误 set -e # 生成静态文件 npm run build # 进入生成的文件夹 cd docs/.vuepress/dist # 如果是发布到自定义域名 # echo &amp;apos;www.yourwebsite.com&amp;apos; &amp;gt; CNAME git init git add -A git commit -m &amp;apos;message&amp;apos; # 如果发布到 https://&amp;lt;USERNAME&amp;gt;.github.io git push -f git@github.com:wangfeng1996/wangfeng1996.github.io.git master # 如果发布到 https://USERNAME.github.io/&amp;lt;REPO&amp;gt; REPO=github上的项目 # git push -f git@github.com:USERNAME/&amp;lt;REPO&amp;gt;.git master:gh-pages cd ../ &amp;amp;&amp;amp; rm -rf dist</description>
       <category>shell</category>
       <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
@@ -900,9 +900,9 @@ Schedule</p>
     </item>
     <item>
       <title>Homebrew</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/homebrew/Homebrew.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/homebrew/Homebrew.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">Homebrew</source>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/develop/homebrew/Homebrew.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/develop/homebrew/Homebrew.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">Homebrew</source>
       <description>Homebrew 使用指南 对于习惯了使用命令来完成一切的程序员来说，安装软件这种小事，自然是能够用命令解决，就不用图形界面选择。但是在 Linux 中，我们有 yum、apt、dnf、pkg等命令来完成软件的安装，macOS 却并未为我们提供一个好用的包管理器，帮助我们更好的使用 macOS。 好在，虽然官方没有提供，我们却可以使用 Homebrew 这一神器，来完成类似的工作，就如同 Homebrew 的 Slogan ：“The missing package manager for macOS (or Linux)”</description>
       <category>homebrew</category>
       <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
@@ -1206,13 +1206,13 @@ Schedule</p>
 <li>Homebrew 的 Manpage 说明书：<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fdocs.brew.sh%2FManpage" target="_blank" rel="noopener noreferrer">https://docs.brew.sh/Manpage</a></li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/images/homebrew/homebrew-01.png" type="image/png"/>
+      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/images/homebrew/homebrew-01.png" type="image/png"/>
     </item>
     <item>
       <title>IntelliJ IDEA</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/01_IDEA.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/01_IDEA.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">IntelliJ IDEA</source>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/develop/idea/01_IDEA.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/develop/idea/01_IDEA.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">IntelliJ IDEA</source>
       <description>IntelliJ IDEA 点击下载IDEA 本系列基于ideaIU-2022.1.1.win操作 安装之后 windows：配置存放目录C:\Users\用户名\AppData\Roaming\JetBrains\IntelliJIdea2022.1 mac: 配置存放目录</description>
       <category>idea</category>
       <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
@@ -1236,9 +1236,9 @@ Schedule</p>
     </item>
     <item>
       <title>快捷键设置</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/02-%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/develop/idea/02-%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/rss.xml">快捷键设置</source>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/develop/idea/02-%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/develop/idea/02-%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">快捷键设置</source>
       <description>快捷键设置 File -&amp;gt; Settings... -&amp;gt; Keymap Ctrl+D 删除当前行 Ctrl+Alt+向下箭头 复制选中的行到下一行并另起一行 F3 选中快速打开文件所在位置</description>
       <category>idea</category>
       <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
@@ -1262,7 +1262,7 @@ Schedule</p>
 <p><code>ctrl+alt+/</code>：自动添加注释<br>
 <img src="/images/idea/idea-keymap-08.png" alt="idea-keymap.png" loading="lazy"></p>
 ]]></content:encoded>
-      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/LearnData/images/idea/idea-keymap-1.png" type="image/png"/>
+      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/images/idea/idea-keymap-1.png" type="image/png"/>
     </item>
   </channel>
 </rss>
