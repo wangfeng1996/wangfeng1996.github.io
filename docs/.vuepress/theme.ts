@@ -11,7 +11,7 @@ export default hopeTheme({
     // hostname: "https://newzone.top",
     hostname: "https://theme-hope.vuejs.press/zh/config/theme/layout.html",
 
-    iconAssets: ["iconfont", "//at.alicdn.com/t/c/font_4269063_2ldmigq8hyv.css"],
+    iconAssets: ["iconfont", "//at.alicdn.com/t/c/font_4269063_qla7g3a6rgp.css"],
 
     iconPrefix: "iconfont icon-",
     author: "有梦想的鱼🐟",

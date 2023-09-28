@@ -80,6 +80,14 @@ export default sidebar([
                 collapsible: true,
                 children: "structure",
             },
+            {
+                text: "网络",
+                icon: "neiwang",
+                prefix: "network/",
+                link: "",
+                collapsible: true,
+                children: ["ngrok.md"],
+            },
         ],
     },
     {
