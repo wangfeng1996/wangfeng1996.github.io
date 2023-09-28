@@ -169,21 +169,21 @@ brew install --cask iterm2
 
   + 重新启动zsh（例如打开终端模拟器的新实例）
 
-  + 方式二
++ 方式二
 
-    + 执行下面指令自动安装
+  + 执行下面指令自动安装
 
-      ```shell
-      git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-      ```
+    ```shell
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
 
-    + 然后编辑vim ~/.zshrc文件， 找到plugins=(git)这一行，如果没有添加。更改为如下
+  + 然后编辑vim ~/.zshrc文件， 找到plugins=(git)这一行，如果没有添加。更改为如下
 
-      ```shell
-      plugins=(git zsh-syntax-highlighting)
-      ```
+    ```shell
+    plugins=(git zsh-syntax-highlighting)
+    ```
 
-    + 重新启动zsh（例如打开终端模拟器的新实例）
+  + 重新启动zsh（例如打开终端模拟器的新实例）
 
 ####  自动补全插件
 
@@ -217,7 +217,6 @@ brew install --cask iterm2
   ```
 
 ## iterm2 快捷键
-
 
   ```shell
   command + enter 进入与返回全屏模式

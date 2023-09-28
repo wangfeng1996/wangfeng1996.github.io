@@ -14,7 +14,7 @@ export default hopeTheme({
     iconAssets: ["iconfont", "//at.alicdn.com/t/c/font_4269063_2ldmigq8hyv.css"],
 
     iconPrefix: "iconfont icon-",
-    author: "wangfeng",
+    author: "有梦想的鱼🐟",
 
    logo: "/logo.png",
 
