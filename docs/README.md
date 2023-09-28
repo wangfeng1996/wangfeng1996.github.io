@@ -265,7 +265,7 @@ highlights:
       details: 让你的网站更像一个 APP
       link: ./guide/advanced/pwa.html
 
-copyright: false
+    
+copyright: Copyright © 2023-present wangfeng1996
 
-footer: MIT Licensed | Copyright © 2023-present wangfeng
 ---

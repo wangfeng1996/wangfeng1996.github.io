@@ -99,6 +99,7 @@ Homebrew 由开发者 Max Howell 开发，并基于 BSD 开源，是一个非常
 在命令行中，你可以直接使用 `brew search [关键词]` 来进行搜索
 ![关键字搜索](/images/homebrew/homebrew-01.png)
 <center style="font-size:14px;color:#C0C0C0;padding-bottom:5px;line-height: 0.9">搜索软件</center>
+
 > 命令行搜索软件 输入你想要的关键词，来搜索即可得到结果。 
 > 在搜索时应当遵循宁可少字，不能错字的原则来搜索。
 
