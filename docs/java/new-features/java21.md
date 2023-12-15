@@ -3,7 +3,7 @@ title: Java 21 新特性概览
 category: Java
 tag:
 
-- Java新特性
+  - Java新特性
 
 ---
 
@@ -435,10 +435,19 @@ public class NativeFunctionExample {
 
 ```java
 switch(dayOfWeek){
-        case MONDAY,TUESDAY,WEDNESDAY,THURSDAY->System.out.println("Weekday");
-        case FRIDAY->System.out.println("Friday");
-        case SATURDAY,SUNDAY->System.out.println("Weekend");
-default ->throw new IllegalArgumentException("Invalid day of week: "+dayOfWeek);
+        case MONDAY,TUESDAY,WEDNESDAY,THURSDAY->System.out.
+
+println("Weekday");
+        case FRIDAY->System.out.
+
+println("Friday");
+        case SATURDAY,SUNDAY->System.out.
+
+println("Weekend");
+
+default ->throw new
+
+IllegalArgumentException("Invalid day of week: "+dayOfWeek);
         }
 ```
 
@@ -569,9 +578,9 @@ main 方法。
 实例主方法的语法如下：
 
 ```java
-public void main(String[]args){
+public void main(String[] args) {
 // 主方法的代码逻辑
-        }
+}
 ```
 
 4. Unnamed Classes and Instance Main Methods 的优点
@@ -960,18 +969,18 @@ API，由于其无限制的并发模式，引入了复杂性和风险。这些�
 
 ```java
   Response handle() throws ExecutionException, InterruptedException {
-        try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
-        Supplier<String>  user  = scope.fork(() -> findUser());
+    try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
+        Supplier<String> user = scope.fork(() -> findUser());
         Supplier<Integer> order = scope.fork(() -> fetchOrder());
 
         scope.join()
-        .throwIfFailed();
+                .throwIfFailed();
 
 
         return new Response(user.get(), order.get());
-        }
+    }
 
-        }
+}
 ```
 
 在这个示例中，我们创建了一个新的StructuredTaskScope作用域，并使用它派生了两个子任务：一个执行findUser()
@@ -990,12 +999,10 @@ JDK 21 将是大多数供应商的长期支持 （LTS） 版本。有关自上�
 的完整列表，请参阅 here.
 Schedule
 
-| 2023/06/08 | | [第一阶段缓慢降级（从主分支派生）](https://openjdk.org/jeps/3#rdp-1)|
-
-| 2023/07/20 | | [第二阶段缓慢降级](https://openjdk.org/jeps/3#rdp-2)|
-
-| 2023/08/10 | | [初始候选发行版](https://openjdk.org/jeps/3#rc)|
-
-| 2023/08/24 | | [最终候选发行版](https://openjdk.org/jeps/3#rc)|
-
-| 2023/09/19 | | 正式发布 |
+| 发布时间       | 发布内容                                                 |
+|------------|------------------------------------------------------|
+| 2023/06/08 | [第一阶段缓慢降级（从主分支派生）](https://openjdk.org/jeps/3#rdp-1) |
+| 2023/07/20 | [第二阶段缓慢降级](https://openjdk.org/jeps/3#rdp-2)         |
+| 2023/08/10 | [初始候选发行版](https://openjdk.org/jeps/3#rc)             |
+| 2023/08/24 | [最终候选发行版](https://openjdk.org/jeps/3#rc)             |
+| 2023/09/19 | 正式发布                                                 |
