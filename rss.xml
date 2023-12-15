@@ -6,8 +6,8 @@
     <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/</link>
     <description>业精于勤荒于嬉，行成于思毁于随</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 28 Sep 2023 09:31:41 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Sep 2023 09:31:41 GMT</lastBuildDate>
+    <pubDate>Fri, 15 Dec 2023 03:59:39 GMT</pubDate>
+    <lastBuildDate>Fri, 15 Dec 2023 03:59:39 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Java</category>
@@ -337,7 +337,7 @@ Unnamed Patterns and Variables 的实现原理主要涉及两个方面：匿名�
 <p>匿名变量<br>
 匿名变量是一种特殊的变量，用于表示我们不需要使用该变量的值。在匿名变量中，我们同样使用下划线 _ 来代替具体的变量名。<br>
 例如，在 switch 语句中，我们可以使用匿名变量来忽略某些分支的返回值：</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="4">
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="4">
 <li>Unnamed Patterns and Variables 的优点</li>
 </ol>
 <p>简化代码：通过使用匿名模式和变量，可以减少临时变量的创建，使得代码更加简洁。<br>
@@ -726,11 +726,36 @@ API，由于其无限制的并发模式，引入了复杂性和风险。这些�
 JDK 21 将是大多数供应商的长期支持 （LTS） 版本。有关自上一个 LTS 版本 JDK 17 以来集成的 JEP<br>
 的完整列表，请参阅 here.<br>
 Schedule</p>
-<p>| 2023/06/08 | | <a href="https://openjdk.org/jeps/3#rdp-1" target="_blank" rel="noopener noreferrer">第一阶段缓慢降级（从主分支派生）</a>|</p>
-<p>| 2023/07/20 | | <a href="https://openjdk.org/jeps/3#rdp-2" target="_blank" rel="noopener noreferrer">第二阶段缓慢降级</a>|</p>
-<p>| 2023/08/10 | | <a href="https://openjdk.org/jeps/3#rc" target="_blank" rel="noopener noreferrer">初始候选发行版</a>|</p>
-<p>| 2023/08/24 | | <a href="https://openjdk.org/jeps/3#rc" target="_blank" rel="noopener noreferrer">最终候选发行版</a>|</p>
-<p>| 2023/09/19 | | 正式发布 |</p>
+<table>
+<thead>
+<tr>
+<th>发布时间</th>
+<th>发布内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023/06/08</td>
+<td><a href="https://openjdk.org/jeps/3#rdp-1" target="_blank" rel="noopener noreferrer">第一阶段缓慢降级（从主分支派生）</a></td>
+</tr>
+<tr>
+<td>2023/07/20</td>
+<td><a href="https://openjdk.org/jeps/3#rdp-2" target="_blank" rel="noopener noreferrer">第二阶段缓慢降级</a></td>
+</tr>
+<tr>
+<td>2023/08/10</td>
+<td><a href="https://openjdk.org/jeps/3#rc" target="_blank" rel="noopener noreferrer">初始候选发行版</a></td>
+</tr>
+<tr>
+<td>2023/08/24</td>
+<td><a href="https://openjdk.org/jeps/3#rc" target="_blank" rel="noopener noreferrer">最终候选发行版</a></td>
+</tr>
+<tr>
+<td>2023/09/19</td>
+<td>正式发布</td>
+</tr>
+</tbody>
+</table>
 ]]></content:encoded>
     </item>
     <item>
