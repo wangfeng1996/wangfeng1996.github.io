@@ -6,10 +6,11 @@
     <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/</link>
     <description>业精于勤荒于嬉，行成于思毁于随</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 15 Dec 2023 03:59:39 GMT</pubDate>
-    <lastBuildDate>Fri, 15 Dec 2023 03:59:39 GMT</lastBuildDate>
+    <pubDate>Fri, 23 Feb 2024 01:49:36 GMT</pubDate>
+    <lastBuildDate>Fri, 23 Feb 2024 01:49:36 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>mysql</category>
     <category>Java</category>
     <category>内网穿透</category>
     <category>Linux</category>
@@ -18,6 +19,33 @@
     <category>shell</category>
     <category>homebrew</category>
     <category>idea</category>
+    <item>
+      <title>mysql</title>
+      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/java/mysql/mysql.html</link>
+      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/java/mysql/mysql.html</guid>
+      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">mysql</source>
+      <description>mysql mysql全文索引分词器 https://blog.csdn.net/qq_29864051/article/details/125987138 https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/developer-reference/analyzers-for-full-text-indexes mysql 多主键查询的实现 https://blog.51cto.com/u_16213391/7273288 mysql 自定义排序 FIELD mybatis的 string类型的和int 类型的判断 SpringBoot缓存中@CacheEvict注解删除缓存详解（@cache XXXX）</description>
+      <category>mysql</category>
+      <pubDate>Fri, 23 Feb 2024 01:47:41 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> mysql</h1>
+<ul>
+<li>mysql全文索引分词器
+<ul>
+<li><a href="https://blog.csdn.net/qq_29864051/article/details/125987138" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/qq_29864051/article/details/125987138</a></li>
+<li><a href="https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/developer-reference/analyzers-for-full-text-indexes" target="_blank" rel="noopener noreferrer">https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/developer-reference/analyzers-for-full-text-indexes</a></li>
+</ul>
+</li>
+<li>mysql 多主键查询的实现
+<ul>
+<li><a href="https://blog.51cto.com/u_16213391/7273288" target="_blank" rel="noopener noreferrer">https://blog.51cto.com/u_16213391/7273288</a></li>
+</ul>
+</li>
+<li>mysql 自定义排序 FIELD</li>
+<li>mybatis的 string类型的和int 类型的判断</li>
+<li>SpringBoot缓存中@CacheEvict注解删除缓存详解（@cache XXXX）</li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>Java 21 新特性概览</title>
       <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/java/new-features/java21.html</link>
@@ -852,11 +880,25 @@ Schedule</p>
       <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/services/Linux.html</link>
       <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/services/Linux.html</guid>
       <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">Linux</source>
-      <description>1、关机、重启</description>
+      <description>1、关机、重启 # 关机 shutdown -h now # 重启 shutdown -r now</description>
       <category>Linux</category>
       <pubDate>Wed, 27 Sep 2023 07:57:22 GMT</pubDate>
       <content:encoded><![CDATA[<h3> 1、关机、重启</h3>
-]]></content:encoded>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2、查看系统,CPU信息</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3、建立软连接</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 4、rpm相关</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 5、命令重命名</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> 6、同步服务器时间</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 7、后台运行命令</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 8、强制活动用户退出</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> 9、查看命令路径</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 10、查看进程所有打开最大fd数</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 11、配置dns</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 12、nslookup,查看域名路由表</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 13、last, 最近登录信息列表</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> 14、设置固定ip</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 查看进程内加载的环境变量</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
       <title>macOS</title>
@@ -1258,36 +1300,6 @@ Schedule</p>
 <div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> IDE激活</h3>
 <p><a href="https://www.jetbrains.com/shop/eform/opensource" target="_blank" rel="noopener noreferrer">申请开源开发许可证</a></p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>快捷键设置</title>
-      <link>https://theme-hope.vuejs.press/zh/config/theme/layout.html/develop/idea/02-%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE.html</link>
-      <guid>https://theme-hope.vuejs.press/zh/config/theme/layout.html/develop/idea/02-%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE.html</guid>
-      <source url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/rss.xml">快捷键设置</source>
-      <description>快捷键设置 File -&amp;gt; Settings... -&amp;gt; Keymap Ctrl+D 删除当前行 Ctrl+Alt+向下箭头 复制选中的行到下一行并另起一行 F3 选中快速打开文件所在位置</description>
-      <category>idea</category>
-      <pubDate>Tue, 26 Sep 2023 09:35:15 GMT</pubDate>
-      <content:encoded><![CDATA[<h3> 快捷键设置</h3>
-<p><code>File</code> -&gt; <code>Settings...</code> -&gt; <code>Keymap</code></p>
-<p><code>Ctrl+D</code> 删除当前行<br>
-<code>Ctrl+Alt+向下箭头</code> 复制选中的行到下一行并另起一行<br>
-<img src="/images/idea/idea-keymap-1.png" alt="idea-keymap.png" loading="lazy"></p>
-<p><code>F3</code> 选中快速打开文件所在位置<br>
-<img src="/images/idea/idea-keymap-2.png" alt="idea-keymap.png" loading="lazy"></p>
-<p><code>F2</code> 文件重命名<br>
-<img src="/images/idea/idea-keymap-3.png" alt="idea-keymap.png" loading="lazy"></p>
-<p>debug <code>F10</code> 跳出当前方法<br>
-<img src="/images/idea/idea-keymap-4.png" alt="idea-keymap.png" loading="lazy"></p>
-<p><code>RestfulTool</code>插件根据url快速定位controller<br>
-<img src="/images/idea/idea-keymap-5.png" alt="idea-keymap.png" loading="lazy"></p>
-<p><code>Ctrl+鼠标滚轮向上滚</code>：放大字体<br>
-<img src="/images/idea/idea-keymap-06.png" alt="idea-keymap.png" loading="lazy"></p>
-<p><code>Ctrl+鼠标滚轮向下滚</code>：缩小字体<br>
-<img src="/images/idea/idea-keymap-07.png" alt="idea-keymap.png" loading="lazy"></p>
-<p><code>ctrl+alt+/</code>：自动添加注释<br>
-<img src="/images/idea/idea-keymap-08.png" alt="idea-keymap.png" loading="lazy"></p>
-]]></content:encoded>
-      <enclosure url="https://theme-hope.vuejs.press/zh/config/theme/layout.html/images/idea/idea-keymap-1.png" type="image/png"/>
     </item>
   </channel>
 </rss>
