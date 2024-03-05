@@ -120,22 +120,21 @@ export default sidebar([
         link: "",
         collapsible: true,
         children: "structure",
+    },
+    {
+        text: "🪟 系统问题",
+        icon: "",
+        prefix: "/windows/",
+        link: "",
+        collapsible: true,
+        children: "structure",
+    },
+    {
+        text: "🛖 生活记录",
+        icon: "",
+        prefix: "/family/",
+        link: "",
+        collapsible: true,
+        children: "structure",
     }
-
-    // {
-    //     text: "🪟 系统问题",
-    //     icon: "",
-    //     prefix: "/windows/",
-    //     link: "",
-    //     collapsible: true,
-    //     children: "structure",
-    // },
-    // {
-    //     text: "🛖 生活记录",
-    //     icon: "",
-    //     prefix: "/family/",
-    //     link: "",
-    //     collapsible: true,
-    //     children: "structure",
-    // },
 ]);

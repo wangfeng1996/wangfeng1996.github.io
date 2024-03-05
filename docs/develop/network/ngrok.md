@@ -34,7 +34,7 @@ ngrok 是一个反向代理，通过在公共端点和本地运行的 Web 服务
 
 ## 注册登录账号
 
-从官网（https://ngrok.com/）右上角 Sign Up 进入，完成庄户注册。如果有GitHub账号的，直接GitHub授权登录，快得很！
+从官网（https://ngrok.com/） 右上角 Sign Up 进入，完成庄户注册。如果有GitHub账号的，直接GitHub授权登录，快得很！
 完成注册并登录之后，可以看到Dashboard中就给出了使用的三个步骤：
 
 + 主页面
