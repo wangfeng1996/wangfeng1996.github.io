@@ -250,7 +250,7 @@ git -C "$(brew --repo)" remote set-url origin https://mirrors.tuna.tsinghua.edu.
 git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
 ```
 
-### 1.3 使用 Brewfile 完成环境迁移
+### 2、使用 Brewfile 完成环境迁移
 
 > 1、设备永久了，我们的电脑中会有大量的软件，如果你需要迁移环境，重新安装会是一个大麻烦，好在 Homebrew
 > 本身为我们提供了一个非常好用的环境迁移的工具 —— Homebrew Bundle
@@ -260,7 +260,7 @@ git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.tuna
 
 **注意：:** 然后将 *Brewfile* 复制到新的电脑中，并执行 `brew bundle` 来开始安装的过程。
 
-### 1.4 使用网页搜索 Caskroom 的软件
+### 3、 使用网页搜索 Caskroom 的软件
 
 > Brew Caskroom 并没有提供搜索的命令，不过我们可以借助一些网站来进行搜索，一个是 Homebrew 官方的 Caskrrom
 
@@ -273,7 +273,7 @@ git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.tuna
 你也可以访问 [http://macappstore.org/，在网站中输入你要安装的软件，点击搜索，在弹出的页面中，查看安装指南即可。](https://macappstore.org/)
 ![img](/images/homebrew/homebrew-12.png)
 
-### 1.5 辅助软件
+### 4、 辅助软件
 
 > 除了命令行，还有两款软件可以帮助我们更好的使用 Homebrew ，他们分别是 Cakebrew 和 launchrocket。
 
